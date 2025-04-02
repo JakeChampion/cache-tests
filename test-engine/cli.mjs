@@ -25,7 +25,7 @@ if (testId !== '') {
 } else {
   tests.forEach(suite => {
     suite.tests.forEach(test => {
-        test.dump = true
+      test.dump = true
     })
   })
   testsToRun = tests
