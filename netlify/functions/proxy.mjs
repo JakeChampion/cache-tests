@@ -7,12 +7,11 @@ export default async (req) => {
   url.host = 'c8koc4ks0wkokgckoo8gck0o.164.90.159.101.sslip.io'
   url.port = 80
   url.protocol = 'http'
-  console.log(url.toString())
   const rreeqq = new Request(url, req)
   rreeqq.headers.set('host', url.host)
-  console.log({rreeqq})
+  console.log('accept-encoding:',rreeqq.headers.get('accept-encoding'))
   const response = await fetch(rreeqq)
-  console.log({response})
+  console.log('content-encoding:',response.headers.get('content-encoding'))
   return response
 }
 
