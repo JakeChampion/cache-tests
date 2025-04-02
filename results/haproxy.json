@@ -177,14 +177,11 @@
     "Response 1 status is 200, not 504"
   ],
   "cdn-cc-invalid-sh-type-unknown": true,
-  "cdn-cc-invalid-sh-type-wrong": [
-    "AbortError",
-    "This operation was aborted"
-  ],
+  "cdn-cc-invalid-sh-type-wrong": true,
   "cdn-date-update-exceed": true,
   "cdn-expires-update-exceed": [
     "Assertion",
-    "Response 2 header Expires is \"null\", not \"Wed, 12 Mar 2025 10:13:52 GMT\""
+    "Response 2 header Expires is \"null\", not \"Wed, 02 Apr 2025 10:35:31 GMT\""
   ],
   "cdn-fresh-cc-nostore": [
     "Assertion",
@@ -492,8 +489,8 @@
     "Response 2 does not come from cache"
   ],
   "heuristic-410-cached": [
-    "Assertion",
-    "Response 2 does not come from cache"
+    "TypeError",
+    "fetch failed"
   ],
   "heuristic-414-cached": [
     "Assertion",
@@ -665,14 +662,8 @@
     "TypeError",
     "fetch failed"
   ],
-  "stale-close-proxy-revalidate": [
-    "TypeError",
-    "fetch failed"
-  ],
-  "stale-close-s-maxage=2": [
-    "TypeError",
-    "fetch failed"
-  ],
+  "stale-close-proxy-revalidate": true,
+  "stale-close-s-maxage=2": true,
   "stale-sie-503": [
     "TypeError",
     "fetch failed"
