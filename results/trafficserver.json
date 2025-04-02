@@ -97,7 +97,7 @@
   "cdn-date-update-exceed": true,
   "cdn-expires-update-exceed": [
     "Assertion",
-    "Response 2 header Expires is \"null\", not \"Wed, 02 Apr 2025 11:04:20 GMT\""
+    "Response 2 header Expires is \"null\", not \"Wed, 02 Apr 2025 15:21:49 GMT\""
   ],
   "cdn-fresh-cc-nostore": [
     "Assertion",
@@ -238,10 +238,7 @@
     "Assertion",
     "Response 2 comes from cache"
   ],
-  "freshness-expires-invalid-multiple-lines": [
-    "Assertion",
-    "Response 2 comes from cache"
-  ],
+  "freshness-expires-invalid-multiple-lines": true,
   "freshness-expires-invalid-multiple-spaces": true,
   "freshness-expires-invalid-no-comma": [
     "Assertion",
@@ -654,10 +651,7 @@
   "vary-omit-stored": true,
   "vary-star": true,
   "vary-syntax-empty-star": true,
-  "vary-syntax-empty-star-lines": [
-    "Assertion",
-    "Response 2 comes from cache"
-  ],
+  "vary-syntax-empty-star-lines": true,
   "vary-syntax-foo-star": true,
   "vary-syntax-star": true,
   "vary-syntax-star-foo": true,
