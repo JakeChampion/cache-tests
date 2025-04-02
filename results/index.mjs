@@ -78,6 +78,6 @@ export default [
     file: 'netlify.json',
     name: 'Netlify',
     type: 'cdn',
-    version: '2025-03-28'
+    version: '2025-04-02'
   }
 ]
