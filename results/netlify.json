@@ -567,10 +567,7 @@
   "stale-close-must-revalidate": true,
   "stale-close-no-cache": true,
   "stale-close-proxy-revalidate": true,
-  "stale-close-s-maxage=2": [
-    "Setup",
-    "Response 1 header Cache-Control is \"max-age=2,s-maxage=2\", not \"max-age=2, s-maxage=2\""
-  ],
+  "stale-close-s-maxage=2": true,
   "stale-sie-503": true,
   "stale-sie-close": true,
   "stale-warning-become": [
