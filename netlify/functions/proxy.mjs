@@ -9,6 +9,7 @@ export default async (req) => {
   url.protocol = 'http'
   const rreeqq = new Request(url, req)
   rreeqq.headers.set('host', url.host)
+  rreeqq.headers.set('accept-encoding', 'none')
   console.log('accept-encoding:',rreeqq.headers.get('accept-encoding'))
   const response = await fetch(rreeqq)
   console.log('content-encoding:',response.headers.get('content-encoding'))
