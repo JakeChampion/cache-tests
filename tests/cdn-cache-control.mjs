@@ -149,7 +149,7 @@ export default
       requests: [
         {
           response_headers: [
-            ['CDN-Cache-Control', 'foobar, max-age=3600', false]
+            ['CDN-Cache-Control', 'foobar,max-age=3600', false]
           ],
           setup: true,
           pause_after: true
@@ -366,7 +366,7 @@ export default
       requests: [
         {
           response_headers: [
-            ['CDN-Cache-Control', 'max-age=10000, &&&&&', false],
+            ['CDN-Cache-Control', 'max-age=10000,&&&&&', false],
             ['Cache-Control', 'no-store']
           ],
           setup: true,

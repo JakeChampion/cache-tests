@@ -14,7 +14,7 @@ export default
       requests: [
         {
           response_headers: [
-            ['Cache-Control', 'private, max-age=3600']
+            ['Cache-Control', 'private,max-age=3600']
           ],
           setup: true
         },
@@ -32,7 +32,7 @@ export default
       requests: [
         {
           response_headers: [
-            ['Cache-Control', 'private, max-age=3600']
+            ['Cache-Control', 'private,max-age=3600']
           ],
           setup: true
         },
@@ -82,7 +82,7 @@ export default
       requests: [
         {
           response_headers: [
-            ['Cache-Control', 'max-age=10000, no-store'],
+            ['Cache-Control', 'max-age=10000,no-store'],
             ['Expires', 10000],
             ['Date', 0]
           ],
@@ -142,7 +142,7 @@ export default
         },
         {
           response_headers: [
-            ['Cache-Control', 'no-store, max-age=0'],
+            ['Cache-Control', 'no-store,max-age=0'],
             ['Date', 0],
             ['A', '2']
           ],
@@ -162,7 +162,7 @@ export default
       requests: [
         {
           response_headers: [
-            ['Cache-Control', 'max-age=10000, no-cache'],
+            ['Cache-Control', 'max-age=10000,no-cache'],
             ['Expires', 10000],
             ['Date', 0]
           ],
@@ -181,7 +181,7 @@ export default
       requests: [
         {
           response_headers: [
-            ['Cache-Control', 'max-age=10000, No-CaChE'],
+            ['Cache-Control', 'max-age=10000,No-CaChE'],
             ['Expires', 10000],
             ['Date', 0]
           ],
@@ -220,7 +220,7 @@ export default
       requests: [
         {
           response_headers: [
-            ['Cache-Control', 'max-age=10000, no-cache'],
+            ['Cache-Control', 'max-age=10000,no-cache'],
             ['Expires', 10000],
             ['Date', 0],
             ['ETag', '"abcd"']
@@ -294,7 +294,7 @@ export default
       requests: [
         {
           response_headers: [
-            ['Cache-Control', 'max-age=10000, must-revalidate'],
+            ['Cache-Control', 'max-age=10000,must-revalidate'],
             ['ETag', '"abcd"']
           ],
           setup: true
@@ -312,7 +312,7 @@ export default
       requests: [
         {
           response_headers: [
-            ['Cache-Control', 'max-age=2, must-revalidate'],
+            ['Cache-Control', 'max-age=2,must-revalidate'],
             ['ETag', '"abcd"']
           ],
           setup: true
@@ -322,7 +322,7 @@ export default
           setup: true,
           pause_after: true,
           response_headers: [
-            ['Cache-Control', 'max-age=2, must-revalidate'],
+            ['Cache-Control', 'max-age=2,must-revalidate'],
             ['ETag', '"abcd"']
           ]
         },
@@ -339,7 +339,7 @@ export default
       requests: [
         {
           response_headers: [
-            ['Cache-Control', 'max-age=10000, immutable'],
+            ['Cache-Control', 'max-age=10000,immutable'],
             ['ETag', '"abcd"']
           ],
           setup: true,
@@ -358,7 +358,7 @@ export default
       requests: [
         {
           response_headers: [
-            ['Cache-Control', 'max-age=2, immutable'],
+            ['Cache-Control', 'max-age=2,immutable'],
             ['ETag', '"abcd"']
           ],
           setup: true,

@@ -79,7 +79,7 @@ tests.push({
     {
       response_status: [599, 'Whatever'],
       response_headers: [
-        ['Cache-Control', 'max-age=3600, no-store, must-understand']
+        ['Cache-Control', 'max-age=3600,no-store,must-understand']
       ],
       setup: true
     },
@@ -99,7 +99,7 @@ tests.push({
     {
       response_status: [200, 'OK'],
       response_headers: [
-        ['Cache-Control', 'max-age=3600, no-store, must-understand']
+        ['Cache-Control', 'max-age=3600,no-store,must-understand']
       ],
       setup: true
     },

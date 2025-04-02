@@ -69,7 +69,7 @@ export default {
           setup: true,
           pause_after: true,
           response_headers: [
-            ['Cache-Control', 'max-age=1, stale-while-revalidate=3600'],
+            ['Cache-Control', 'max-age=1,stale-while-revalidate=3600'],
             ['ETag', '"abc"']
           ]
         },
@@ -87,7 +87,7 @@ export default {
           setup: true,
           pause_after: true,
           response_headers: [
-            ['Cache-Control', 'max-age=1, stale-while-revalidate=4'],
+            ['Cache-Control', 'max-age=1,stale-while-revalidate=4'],
             ['ETag', '"abc"']
           ]
         },
@@ -111,7 +111,7 @@ export default {
       requests: [
         {
           response_headers: [
-            ['Cache-Control', 'max-age=2, stale-if-error=60']
+            ['Cache-Control', 'max-age=2,stale-if-error=60']
           ],
           setup: true,
           pause_after: true
@@ -130,7 +130,7 @@ export default {
       requests: [
         {
           response_headers: [
-            ['Cache-Control', 'max-age=2, stale-if-error=60']
+            ['Cache-Control', 'max-age=2,stale-if-error=60']
           ],
           setup: true,
           pause_after: true

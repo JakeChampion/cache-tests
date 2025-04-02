@@ -43,7 +43,7 @@ export default
             ['Authorization', 'FOO']
           ],
           response_headers: [
-            ['Cache-Control', 'max-age=3600, public'],
+            ['Cache-Control', 'max-age=3600,public'],
             ['Date', 0]
           ],
           pause_after: true,
@@ -69,7 +69,7 @@ export default
             ['Authorization', 'FOO']
           ],
           response_headers: [
-            ['Cache-Control', 'max-age=3600, must-revalidate'],
+            ['Cache-Control', 'max-age=3600,must-revalidate'],
             ['Date', 0]
           ],
           pause_after: true,
