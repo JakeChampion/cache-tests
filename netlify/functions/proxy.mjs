@@ -4,7 +4,7 @@
  */
 export default async (req) => {
   const url = new URL(req.url)
-  url.host = 'http://c8koc4ks0wkokgckoo8gck0o.164.90.159.101.sslip.io'
+  url.host = 'c8koc4ks0wkokgckoo8gck0o.164.90.159.101.sslip.io'
   url.port = 80
   url.protocol = 'http'
   console.log(url.toString())
