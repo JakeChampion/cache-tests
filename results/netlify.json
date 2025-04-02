@@ -564,18 +564,9 @@
   "query-args-same": true,
   "stale-503": true,
   "stale-close": true,
-  "stale-close-must-revalidate": [
-    "Setup",
-    "Response 1 header Cache-Control is \"max-age=2,must-revalidate\", not \"max-age=2, must-revalidate\""
-  ],
-  "stale-close-no-cache": [
-    "Setup",
-    "Response 1 header Cache-Control is \"max-age=2,no-cache\", not \"max-age=2, no-cache\""
-  ],
-  "stale-close-proxy-revalidate": [
-    "Setup",
-    "Response 1 header Cache-Control is \"max-age=2,proxy-revalidate\", not \"max-age=2, proxy-revalidate\""
-  ],
+  "stale-close-must-revalidate": true,
+  "stale-close-no-cache": true,
+  "stale-close-proxy-revalidate": true,
   "stale-close-s-maxage=2": [
     "Setup",
     "Response 1 header Cache-Control is \"max-age=2,s-maxage=2\", not \"max-age=2, s-maxage=2\""
