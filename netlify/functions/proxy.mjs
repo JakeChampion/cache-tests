@@ -4,9 +4,9 @@
  */
 export default async (req) => {
   const url = new URL(req.url)
-  url.host = 'cache-tests-x98l3.ondigitalocean.app'
-  url.port = 443
-  url.protocol = 'https'
+  url.host = 'http://c8koc4ks0wkokgckoo8gck0o.164.90.159.101.sslip.io'
+  url.port = 80
+  url.protocol = 'http'
   req.headers.set('accept-encoding', 'identity')
   const rreeqq = new Request(url, req)
   rreeqq.headers.set('host', url.host)
