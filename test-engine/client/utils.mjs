@@ -60,23 +60,23 @@ export function setupCheck (reqConfig, memberName) {
 }
 
 export function logRequest (url, init, reqNum) {
-  console.log(`${defines.GREEN}=== Client request ${reqNum}${defines.NC}`)
+  console.warn(`${defines.GREEN}=== Client request ${reqNum}${defines.NC}`)
   if ('method' in init) {
-    console.log(`    ${init.method} ${url}`)
+    console.warn(`    ${init.method} ${url}`)
   } else {
-    console.log(`    GET ${url}`)
+    console.warn(`    GET ${url}`)
   }
   init.headers.forEach(header => {
-    console.log(`    ${header[0]}: ${header[1]}`)
+    console.warn(`    ${header[0]}: ${header[1]}`)
   })
-  console.log('')
+  console.warn('')
 }
 
 export function logResponse (response, reqNum) {
-  console.log(`${defines.GREEN}=== Client response ${reqNum}${defines.NC}`)
-  console.log(`    HTTP ${response.status} ${response.statusText}`)
+  console.warn(`${defines.GREEN}=== Client response ${reqNum}${defines.NC}`)
+  console.warn(`    HTTP ${response.status} ${response.statusText}`)
   response.headers.forEach((hvalue, hname) => { // for some reason, node-fetch reverses these
-    console.log(`    ${hname}: ${hvalue}`)
+    console.warn(`    ${hname}: ${hvalue}`)
   })
-  console.log('')
+  console.warn('')
 }

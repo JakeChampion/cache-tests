@@ -10,7 +10,7 @@ if (process.argv[2] === 'validate') {
   const validate = ajv.compile(schema)
   const valid = validate(tests)
   if (!valid) {
-    console.log(validate.errors)
+    console.warn(validate.errors)
     process.exit(1)
   }
 } else {

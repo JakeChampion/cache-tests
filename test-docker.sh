@@ -2,7 +2,7 @@
 
 ## Run tests against a local docker image with common proxy/caches.
 
-set -euo pipefail
+set -euxo pipefail
 
 PIDFILE=/tmp/http-cache-test-server.pid
 
@@ -23,13 +23,14 @@ function run {
   TEST_ID="${1}"
   shift
   PROXIES=( "$@" )
-  # start test server
-  npm run --silent server --port=8000 --pidfile=${PIDFILE} &
 
   # run proxies container
-  docker run --name=tmp_proxies ${DOCKER_PORTS} -dt mnot/proxy-cache-tests host.docker.internal \
+  docker run --platform linux/arm64 --name=tmp_proxies ${DOCKER_PORTS} -dt mnot/proxy-cache-tests host.docker.internal \
     > /dev/null
 
+  # start test server
+  npm run --silent server --port=8123 --pidfile=${PIDFILE} &
+  
   trap cleanup EXIT
 
   # give docker enough time to start

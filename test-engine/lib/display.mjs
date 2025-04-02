@@ -122,7 +122,7 @@ export function showTestDetails (test) {
       modalOpen(html)
     })
     .catch(err => {
-      console.log(`Template error: ${err}`)
+      console.error(`Template error: ${err}`)
     })
 }
 
@@ -147,7 +147,7 @@ function copyTextToClipboard (text) {
     const msg = successful ? 'successful' : 'unsuccessful'
     console.log(`Copying text "${text}" was ${msg}`)
   } catch (err) {
-    console.log('Unable to copy')
+    console.error('Unable to copy')
   }
   document.body.removeChild(textArea)
 }

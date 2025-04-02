@@ -1,5 +1,10 @@
 import { sendResponse, configs, setConfig } from './utils.mjs'
 
+/**
+ * @param {string[]} pathSegs
+ * @param {typeof import('http').IncomingMessage} request
+ * @param {typeof import('http').ServerResponse} response
+ */
 export default function handleConfig (pathSegs, request, response) {
   const uuid = pathSegs[0]
   if (request.method !== 'PUT') {

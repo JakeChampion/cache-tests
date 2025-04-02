@@ -4,7 +4,7 @@
 
 set -euo pipefail
 
-PORT=8000
+PORT=8123
 DOWNLOADS=~/Downloads
 PIDFILE=/tmp/http-cache-test-server.pid
 

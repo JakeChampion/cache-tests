@@ -95,7 +95,7 @@ To test a forward proxy which listens on 127.0.0.1:8082, start the server:
 
 and then run:
 
-> HTTP_PROXY=http://127.0.0.1:8082 npm run --silent cli --base=http://127.0.0.1:8000
+> HTTP_PROXY=http://127.0.0.1:8082 npm run --silent cli --base=http://127.0.0.1:8123
 
 or:
 
@@ -116,7 +116,7 @@ First, start the server-side by running:
 
 inside the directory (the repository's directory if you cloned from git, or `node_modules/http-cache-tests` if you installed from npm).
 
-By default, the server runs on port 8000; to choose a different port, use the `--port` argument; e.g.,
+By default, the server runs on port 8123; to choose a different port, use the `--port` argument; e.g.,
 
 > npm run server --port=8080
 
@@ -124,20 +124,20 @@ If you want to run an HTTPS origin, you'll need to specify the `protocol`, `keyf
 
 > npm run server --protocol=https --keyfile=/path/to/key.pem --certfile=/path-to-cert.pem
 
-Note that the default port for HTTPS is still 8000.
+Note that the default port for HTTPS is still 8123.
 
 
 ### Running the client
 
 To test a reverse proxy or CDN from the command line:
 
-> npm run --silent cli --base=http://server-url.example.org:8000/
+> npm run --silent cli --base=http://server-url.example.org:8123/
 
 ... using the URL of the server you want to test. This will output the test results in JSON to STDOUT, suitable for inclusion in the `results` directory. See `lib/summary.mjs` for details of how to interpret that.
 
 To run a single test, use:
 
-> npm run cli --base=http://server-url.example.org:8000/ --id=test-id
+> npm run cli --base=http://server-url.example.org:8123/ --id=test-id
 
 ... where `test-id` is the identifier for the test. This will output the request and response headers as seen by the client and server, along with the results. This is useful for debugging a particular failure.
 

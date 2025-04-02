@@ -38,4 +38,4 @@ chown -R ${TS_USER}:${TS_USER} ${TS_CACHE_DIR}
 
 
 # varnish
-sed -i s/8080/8000/ /etc/varnish/default.vcl
+sed -i s/8080/8123/ /etc/varnish/default.vcl

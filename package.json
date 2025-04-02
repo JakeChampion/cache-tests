@@ -14,6 +14,7 @@
     "npm": "^11.0.0"
   },
   "scripts": {
+    "start": "npm run server",
     "server": "node test-engine/server/server.mjs",
     "cli": "node --no-warnings test-engine/cli.mjs",
     "export": "node --no-warnings test-engine/export.mjs",
@@ -23,7 +24,7 @@
   },
   "config": {
     "protocol": "http",
-    "port": "8000",
+    "port": "8123",
     "base": "",
     "id": "",
     "pidfile": "/tmp/http-cache-test-server.pid"

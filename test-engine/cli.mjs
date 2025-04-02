@@ -8,7 +8,7 @@ const testId = process.env.npm_config_id || process.env.npm_package_config_id
 
 let testsToRun
 if (testId !== '') {
-  console.log(`Running ${testId}`)
+  console.warn(`Running ${testId}`)
   tests.forEach(suite => {
     suite.tests.forEach(test => {
       if (test.id === testId) {
@@ -23,6 +23,11 @@ if (testId !== '') {
     })
   })
 } else {
+  tests.forEach(suite => {
+    suite.tests.forEach(test => {
+        test.dump = true
+    })
+  })
   testsToRun = tests
 }
 
@@ -34,7 +39,7 @@ await runTests(testsToRun, false, baseUrl).catch(err => {
 const results = getResults()
 
 if (testId !== '') {
-  console.log(`${GREEN}==== Results${NC}`)
+  console.warn(`${GREEN}==== Results${NC}`)
   const resultSymbol = determineTestResult(tests, testId, results, false)
   const resultDetails = results[testId][1] || ''
   console.log(`${resultSymbol[2]} - ${resultDetails}`)

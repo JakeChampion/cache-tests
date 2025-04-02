@@ -1,4 +1,4 @@
-FROM --platform=linux/amd64 ubuntu:devel
+FROM ubuntu:devel
 LABEL maintainer="Mark Nottingham <mnot@mnot.net>"
 
 
@@ -9,7 +9,6 @@ RUN apt-get update \
     nodejs npm git openssh-client telnet \
     squid \
     nginx \
-    trafficserver \
     apache2 \
     varnish \
     golang \
@@ -75,6 +74,52 @@ EXPOSE 8006
 
 COPY haproxy/haproxy.cfg /etc/haproxy/haproxy.cfg
 EXPOSE 8007
+
+
+# Set environment variables to avoid interactive prompts during package installation
+ENV DEBIAN_FRONTEND=noninteractive
+
+# Install necessary dependencies
+RUN apt-get update && apt-get install -y \
+    libbz2-dev \
+    wget \
+    autoconf \
+    automake \
+    libtool \
+    pkg-config \
+    build-essential \
+    ca-certificates \
+    curl \
+    git \
+    cmake \
+    clang-format-14 \
+    libstdc++-11-dev \
+    libjsoncpp-dev \
+    libleveldb-dev \
+    libre2-dev \
+    libssl-dev \
+    zlib1g-dev \
+    libpcre3-dev \
+    libcap-dev \
+    libhwloc-dev \
+    libbrotli-dev \
+    && rm -rf /var/lib/apt/lists/*
+
+# Set working directory to /src
+WORKDIR /src
+
+# Download Apache Traffic Server source code (version 9.2.9)
+RUN wget https://downloads.apache.org/trafficserver/trafficserver-9.2.9.tar.bz2
+
+# Extract the downloaded tarball
+RUN tar -xvjf trafficserver-9.2.9.tar.bz2
+
+# Set the working directory to the Traffic Server source code
+WORKDIR /src/trafficserver-9.2.9
+
+# Configure, make, and install Traffic Server
+RUN ./configure && make && make install
+
 
 
 # setup

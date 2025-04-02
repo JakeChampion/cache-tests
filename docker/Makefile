@@ -4,7 +4,7 @@ PKGNAME=mnot/proxy-cache-tests
 
 .PHONY: build
 build:
-	docker build --pull -t $(PKGNAME) .
+	docker build -t $(PKGNAME) .
 
 .PHONY: upload
 upload:

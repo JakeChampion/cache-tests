@@ -28,11 +28,11 @@ See the Apache Version 2.0 License for specific language governing permissions
 and limitations under the License.
 ***************************************************************************** */
 
-var __assign = function () {
+let __assign = function () {
   __assign = Object.assign || function __assign (t) {
     for (var s, i = 1, n = arguments.length; i < n; i++) {
       s = arguments[i]
-      for (var p in s) if (Object.prototype.hasOwnProperty.call(s, p)) t[p] = s[p]
+      for (const p in s) if (Object.prototype.hasOwnProperty.call(s, p)) t[p] = s[p]
     }
     return t
   }
@@ -394,15 +394,15 @@ function existsSync (filepath) {
   return true
 }
 
-var fs = /* #__PURE__ */Object.freeze({
-  resolve: resolve,
-  readFile: readFile,
-  readFileSync: readFileSync,
-  exists: exists,
-  existsSync: existsSync
+const fs = /* #__PURE__ */Object.freeze({
+  resolve,
+  readFile,
+  readFileSync,
+  exists,
+  existsSync
 })
 
-var TokenKind;
+let TokenKind;
 (function (TokenKind) {
   TokenKind[TokenKind.Number = 1] = 'Number'
   TokenKind[TokenKind.Literal = 2] = 'Literal'
@@ -456,18 +456,18 @@ function getKind (val) {
   return val ? val.kind : -1
 }
 
-var typeGuards = /* #__PURE__ */Object.freeze({
-  isDelimitedToken: isDelimitedToken,
-  isOperatorToken: isOperatorToken,
-  isHTMLToken: isHTMLToken,
-  isOutputToken: isOutputToken,
-  isTagToken: isTagToken,
-  isQuotedToken: isQuotedToken,
-  isLiteralToken: isLiteralToken,
-  isNumberToken: isNumberToken,
-  isPropertyAccessToken: isPropertyAccessToken,
-  isWordToken: isWordToken,
-  isRangeToken: isRangeToken
+const typeGuards = /* #__PURE__ */Object.freeze({
+  isDelimitedToken,
+  isOperatorToken,
+  isHTMLToken,
+  isOutputToken,
+  isTagToken,
+  isQuotedToken,
+  isLiteralToken,
+  isNumberToken,
+  isPropertyAccessToken,
+  isWordToken,
+  isRangeToken
 })
 
 // **DO NOT CHANGE THIS FILE**
@@ -1625,7 +1625,7 @@ class Parser {
   }
 }
 
-var assign = {
+const assign = {
   parse: function (token) {
     const tokenizer = new Tokenizer(token.args)
     this.key = tokenizer.readWord().content
@@ -1690,7 +1690,7 @@ class ForloopDrop extends Drop {
   }
 }
 
-var For = {
+const For = {
   type: 'block',
   parse: function (token, remainTokens) {
     const toknenizer = new Tokenizer(token.args)
@@ -1742,7 +1742,7 @@ var For = {
   }
 }
 
-var capture = {
+const capture = {
   parse: function (tagToken, remainTokens) {
     const tokenizer = new Tokenizer(tagToken.args)
     this.variable = readVariableName(tokenizer)
@@ -1769,7 +1769,7 @@ function readVariableName (tokenizer) {
   if (quoted) { return evalQuotedToken(quoted) }
 }
 
-var Case = {
+const Case = {
   parse: function (tagToken, remainTokens) {
     this.cond = tagToken.args
     this.cases = []
@@ -1805,7 +1805,7 @@ var Case = {
   }
 }
 
-var comment = {
+const comment = {
   parse: function (tagToken, remainTokens) {
     const stream = this.liquid.parser.parseStream(remainTokens)
     stream
@@ -1819,16 +1819,16 @@ var comment = {
   }
 }
 
-var BlockMode;
+let BlockMode;
 (function (BlockMode) {
   /* store rendered html into blocks */
   BlockMode[BlockMode.OUTPUT = 0] = 'OUTPUT'
   /* output rendered html directly */
   BlockMode[BlockMode.STORE = 1] = 'STORE'
 })(BlockMode || (BlockMode = {}))
-var BlockMode$1 = BlockMode
+const BlockMode$1 = BlockMode
 
-var include = {
+const include = {
   parse: function (token) {
     const args = token.args
     const tokenizer = new Tokenizer(args)
@@ -1868,7 +1868,7 @@ var include = {
   }
 }
 
-var render = {
+const render = {
   parse: function (token) {
     const args = token.args
     const tokenizer = new Tokenizer(args)
@@ -1935,7 +1935,7 @@ var render = {
   }
 }
 
-var decrement = {
+const decrement = {
   parse: function (token) {
     const tokenizer = new Tokenizer(token.args)
     this.variable = tokenizer.readWord().content
@@ -1949,7 +1949,7 @@ var decrement = {
   }
 }
 
-var cycle = {
+const cycle = {
   parse: function (tagToken) {
     const tokenizer = new Tokenizer(tagToken.args)
     const group = tokenizer.readValue()
@@ -1984,7 +1984,7 @@ var cycle = {
   }
 }
 
-var If = {
+const If = {
   parse: function (tagToken, remainTokens) {
     this.branches = []
     this.elseTemplates = []
@@ -2021,7 +2021,7 @@ var If = {
   }
 }
 
-var increment = {
+const increment = {
   parse: function (token) {
     const tokenizer = new Tokenizer(token.args)
     this.variable = tokenizer.readWord().content
@@ -2037,7 +2037,7 @@ var increment = {
   }
 }
 
-var layout = {
+const layout = {
   parse: function (token, remainTokens) {
     const tokenizer = new Tokenizer(token.args)
     const file = this.liquid.options.dynamicPartials ? tokenizer.readValue() : tokenizer.readFileName()
@@ -2069,7 +2069,7 @@ var layout = {
   }
 }
 
-var block = {
+const block = {
   parse: function (token, remainTokens) {
     const match = /\w+/.exec(token.args)
     this.block = match ? match[0] : ''
@@ -2097,7 +2097,7 @@ var block = {
   }
 }
 
-var raw = {
+const raw = {
   parse: function (tagToken, remainTokens) {
     this.tokens = []
     const stream = this.liquid.parser.parseStream(remainTokens)
@@ -2143,7 +2143,7 @@ class TablerowloopDrop extends ForloopDrop {
   }
 }
 
-var tablerow = {
+const tablerow = {
   parse: function (tagToken, remainTokens) {
     const tokenizer = new Tokenizer(tagToken.args)
     this.variable = tokenizer.readWord()
@@ -2189,7 +2189,7 @@ var tablerow = {
   }
 }
 
-var unless = {
+const unless = {
   parse: function (tagToken, remainTokens) {
     this.templates = []
     this.elseTemplates = []
@@ -2216,13 +2216,13 @@ var unless = {
   }
 }
 
-var Break = {
+const Break = {
   render: function (ctx, emitter) {
     emitter.break = true
   }
 }
 
-var Continue = {
+const Continue = {
   render: function (ctx, emitter) {
     emitter.continue = true
   }
@@ -2568,55 +2568,55 @@ function truncatewords (v, l = 15, o = '...') {
   return ret
 }
 
-var builtinFilters = /* #__PURE__ */Object.freeze({
-  escape: escape,
-  escapeOnce: escapeOnce,
-  newlineToBr: newlineToBr,
-  stripHtml: stripHtml,
-  abs: abs,
-  atLeast: atLeast,
-  atMost: atMost,
-  ceil: ceil,
-  dividedBy: dividedBy,
-  floor: floor,
-  minus: minus,
-  modulo: modulo,
-  times: times,
-  round: round,
-  plus: plus,
-  sortNatural: sortNatural,
-  urlDecode: urlDecode,
-  urlEncode: urlEncode,
-  join: join,
+const builtinFilters = /* #__PURE__ */Object.freeze({
+  escape,
+  escapeOnce,
+  newlineToBr,
+  stripHtml,
+  abs,
+  atLeast,
+  atMost,
+  ceil,
+  dividedBy,
+  floor,
+  minus,
+  modulo,
+  times,
+  round,
+  plus,
+  sortNatural,
+  urlDecode,
+  urlEncode,
+  join,
   last: last$1,
-  first: first,
-  reverse: reverse,
-  sort: sort,
-  size: size,
-  map: map,
-  concat: concat,
-  slice: slice,
-  where: where,
-  uniq: uniq,
-  date: date,
-  Default: Default,
-  json: json,
-  append: append,
-  prepend: prepend,
-  lstrip: lstrip,
-  downcase: downcase,
-  upcase: upcase,
-  remove: remove,
-  removeFirst: removeFirst,
-  rstrip: rstrip,
-  split: split,
-  strip: strip,
-  stripNewlines: stripNewlines,
-  capitalize: capitalize,
-  replace: replace,
-  replaceFirst: replaceFirst,
-  truncate: truncate,
-  truncatewords: truncatewords
+  first,
+  reverse,
+  sort,
+  size,
+  map,
+  concat,
+  slice,
+  where,
+  uniq,
+  date,
+  Default,
+  json,
+  append,
+  prepend,
+  lstrip,
+  downcase,
+  upcase,
+  remove,
+  removeFirst,
+  rstrip,
+  split,
+  strip,
+  stripNewlines,
+  capitalize,
+  replace,
+  replaceFirst,
+  truncate,
+  truncatewords
 })
 
 class TagMap {
