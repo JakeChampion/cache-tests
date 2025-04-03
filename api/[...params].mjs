@@ -22,3 +22,4 @@ export const DELETE = GET
 export const OPTIONS = GET
 export const TRACE = GET
 export const CONNECT = GET
+export const SEARCH = GET
