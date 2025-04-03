@@ -72,15 +72,9 @@
     "Response 2 comes from cache"
   ],
   "ccreq-max-stale": true,
-  "ccreq-max-stale-age": [
-    "Setup",
-    "Response 1 header Age is \"2001\", not \"2000\""
-  ],
+  "ccreq-max-stale-age": true,
   "ccreq-min-fresh": true,
-  "ccreq-min-fresh-age": [
-    "Setup",
-    "Response 1 header Age is \"1001\", not \"1000\""
-  ],
+  "ccreq-min-fresh-age": true,
   "ccreq-no-cache": [
     "Assertion",
     "Response 2 comes from cache"
@@ -108,7 +102,7 @@
   ],
   "cdn-date-update-exceed": [
     "Assertion",
-    "Response 2 header Date is \"Wed, 02 Apr 2025 15:19:19 GMT\", not \"Wed, 02 Apr 2025 15:19:16 GMT\""
+    "Response 2 header Date is \"Thu, 03 Apr 2025 11:02:44 GMT\", not \"Thu, 03 Apr 2025 11:02:41 GMT\""
   ],
   "cdn-expires-update-exceed": true,
   "cdn-fresh-cc-nostore": true,
@@ -167,10 +161,7 @@
     "Setup",
     "Request 2 should have been conditional, but it was not."
   ],
-  "conditional-etag-vary-headers-mismatch": [
-    "Setup",
-    "Response 1 header Vary is \"Accept-Encoding,Abc\", not \"Abc\""
-  ],
+  "conditional-etag-vary-headers-mismatch": true,
   "conditional-etag-weak-generate-weak": [
     "Assertion",
     "Request 2 should have been conditional, but it was not."
@@ -511,11 +502,11 @@
   "other-cookie": true,
   "other-date-update": [
     "Assertion",
-    "Response 2 header Date is \"Wed, 02 Apr 2025 15:19:13 GMT\", not \"Wed, 02 Apr 2025 15:19:10 GMT\""
+    "Response 2 header Date is \"Thu, 03 Apr 2025 11:02:38 GMT\", not \"Thu, 03 Apr 2025 11:02:35 GMT\""
   ],
   "other-date-update-expires": [
     "Assertion",
-    "Response 2 header Date is \"Wed, 02 Apr 2025 15:19:13 GMT\", not \"Wed, 02 Apr 2025 15:19:10 GMT\""
+    "Response 2 header Date is \"Thu, 03 Apr 2025 11:02:38 GMT\", not \"Thu, 03 Apr 2025 11:02:35 GMT\""
   ],
   "other-date-update-expires-update": true,
   "other-fresh-content-disposition-attachment": true,
@@ -640,102 +631,36 @@
   "status-599-must-understand": true,
   "status-599-stale": true,
   "vary-2-match": true,
-  "vary-2-match-omit": [
-    "Assertion",
-    "Response 2 comes from cache"
-  ],
-  "vary-2-no-match": [
-    "Assertion",
-    "Response 2 comes from cache"
-  ],
+  "vary-2-match-omit": true,
+  "vary-2-no-match": true,
   "vary-3-match": true,
-  "vary-3-no-match": [
-    "Assertion",
-    "Response 2 comes from cache"
-  ],
+  "vary-3-no-match": true,
   "vary-3-omit": true,
-  "vary-3-order": [
-    "Assertion",
-    "Response 2 comes from cache"
-  ],
-  "vary-cache-key": [
-    "Setup",
-    "Response 1 header Vary is \"Accept-Encoding,Foo\", not \"Foo\""
-  ],
-  "vary-invalidate": [
-    "Setup",
-    "Response 2 comes from cache"
-  ],
-  "vary-match": [
-    "Setup",
-    "Response 1 header Vary is \"Accept-Encoding,Foo\", not \"Foo\""
-  ],
-  "vary-no-match": [
-    "Assertion",
-    "Response 2 comes from cache"
-  ],
-  "vary-normalise-combine": [
-    "Setup",
-    "Response 1 header Vary is \"Accept-Encoding,Foo\", not \"Foo\""
-  ],
-  "vary-normalise-lang-case": [
-    "Setup",
-    "Response 1 header Vary is \"Accept-Encoding,Accept-Language\", not \"Accept-Language\""
-  ],
+  "vary-3-order": true,
+  "vary-cache-key": true,
+  "vary-invalidate": true,
+  "vary-match": true,
+  "vary-no-match": true,
+  "vary-normalise-combine": true,
+  "vary-normalise-lang-case": true,
   "vary-normalise-lang-order": [
-    "Setup",
-    "Response 1 header Vary is \"Accept-Encoding,Accept-Language\", not \"Accept-Language\""
+    "Assertion",
+    "Response 2 does not come from cache"
   ],
   "vary-normalise-lang-select": [
-    "Setup",
-    "Response 1 header Vary is \"Accept-Encoding,Accept-Language\", not \"Accept-Language\""
-  ],
-  "vary-normalise-lang-space": [
-    "Setup",
-    "Response 1 header Vary is \"Accept-Encoding,Accept-Language\", not \"Accept-Language\""
-  ],
-  "vary-normalise-space": [
-    "Setup",
-    "Response 1 header Vary is \"Accept-Encoding,Foo\", not \"Foo\""
-  ],
-  "vary-omit": [
     "Assertion",
-    "Response 2 comes from cache"
+    "Response 2 does not come from cache"
   ],
-  "vary-omit-stored": [
-    "Assertion",
-    "Response 2 comes from cache"
-  ],
-  "vary-star": [
-    "Assertion",
-    "Response 2 comes from cache"
-  ],
-  "vary-syntax-empty-star": [
-    "Assertion",
-    "Response 2 comes from cache"
-  ],
-  "vary-syntax-empty-star-lines": [
-    "Assertion",
-    "Response 2 comes from cache"
-  ],
-  "vary-syntax-foo-star": [
-    "Assertion",
-    "Response 2 comes from cache"
-  ],
-  "vary-syntax-star": [
-    "Assertion",
-    "Response 2 comes from cache"
-  ],
-  "vary-syntax-star-foo": [
-    "Assertion",
-    "Response 2 comes from cache"
-  ],
-  "vary-syntax-star-star": [
-    "Assertion",
-    "Response 2 comes from cache"
-  ],
-  "vary-syntax-star-star-lines": [
-    "Assertion",
-    "Response 2 comes from cache"
-  ]
+  "vary-normalise-lang-space": true,
+  "vary-normalise-space": true,
+  "vary-omit": true,
+  "vary-omit-stored": true,
+  "vary-star": true,
+  "vary-syntax-empty-star": true,
+  "vary-syntax-empty-star-lines": true,
+  "vary-syntax-foo-star": true,
+  "vary-syntax-star": true,
+  "vary-syntax-star-foo": true,
+  "vary-syntax-star-star": true,
+  "vary-syntax-star-star-lines": true
 }
