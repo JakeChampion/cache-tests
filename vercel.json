@@ -2,7 +2,8 @@
   "redirects": [
     {
       "source": "/:path*",
-      "destination": "http://c8koc4ks0wkokgckoo8gck0o.164.90.159.101.sslip.io/:path*"
+      "destination": "http://c8koc4ks0wkokgckoo8gck0o.164.90.159.101.sslip.io/:path*",
+      "statusCode": 200
     }
   ]
 }
