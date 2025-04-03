@@ -181,7 +181,7 @@
   "cdn-date-update-exceed": true,
   "cdn-expires-update-exceed": [
     "Assertion",
-    "Response 2 header Expires is \"null\", not \"Wed, 02 Apr 2025 10:35:31 GMT\""
+    "Response 2 header Expires is \"null\", not \"Wed, 02 Apr 2025 15:41:27 GMT\""
   ],
   "cdn-fresh-cc-nostore": [
     "Assertion",
@@ -489,8 +489,8 @@
     "Response 2 does not come from cache"
   ],
   "heuristic-410-cached": [
-    "TypeError",
-    "fetch failed"
+    "Assertion",
+    "Response 2 does not come from cache"
   ],
   "heuristic-414-cached": [
     "Assertion",
@@ -662,8 +662,14 @@
     "TypeError",
     "fetch failed"
   ],
-  "stale-close-proxy-revalidate": true,
-  "stale-close-s-maxage=2": true,
+  "stale-close-proxy-revalidate": [
+    "TypeError",
+    "fetch failed"
+  ],
+  "stale-close-s-maxage=2": [
+    "TypeError",
+    "fetch failed"
+  ],
   "stale-sie-503": [
     "TypeError",
     "fetch failed"
@@ -673,8 +679,8 @@
     "fetch failed"
   ],
   "stale-warning-become": [
-    "TypeError",
-    "fetch failed"
+    "Setup",
+    "Response 2 does not come from cache"
   ],
   "stale-warning-stored": [
     "TypeError",

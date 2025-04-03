@@ -1,19 +1,19 @@
 {
   "304-etag-update-response-Cache-Control": [
-    "AbortError",
-    "This operation was aborted"
+    "Assertion",
+    "Response 2 header Cache-Control is \"max-age=1\", not \"max-age=3600\""
   ],
   "304-etag-update-response-Clear-Site-Data": [
     "Assertion",
     "Response 2 header Clear-Site-Data is \"cache\", not \"cookies\""
   ],
   "304-etag-update-response-Content-Encoding": [
-    "AbortError",
-    "This operation was aborted"
+    "Assertion",
+    "Response 2 header Content-Encoding is \"arizqhypgxofwne\", not \"askcumewogyqias\""
   ],
   "304-etag-update-response-Content-Foo": [
-    "AbortError",
-    "This operation was aborted"
+    "Assertion",
+    "Response 2 header Content-Foo is \"awsokgcyuqmieaw\", not \"axurolifczwtqnk\""
   ],
   "304-etag-update-response-Content-Length": true,
   "304-etag-update-response-Content-Location": [
@@ -57,8 +57,8 @@
     "Response 2 header Set-Cookie2 is \"a=b\", not \"a=c\""
   ],
   "304-etag-update-response-Test-Header": [
-    "AbortError",
-    "This operation was aborted"
+    "Assertion",
+    "Response 2 header Test-Header is \"aaaaaaaaaaaaaaa\", not \"abcdefghijklmno\""
   ],
   "304-etag-update-response-X-Content-Foo": [
     "Assertion",
@@ -181,7 +181,7 @@
   "cdn-date-update-exceed": true,
   "cdn-expires-update-exceed": [
     "Assertion",
-    "Response 2 header Expires is \"null\", not \"Wed, 02 Apr 2025 10:31:59 GMT\""
+    "Response 2 header Expires is \"null\", not \"Wed, 02 Apr 2025 15:37:29 GMT\""
   ],
   "cdn-fresh-cc-nostore": [
     "Assertion",
@@ -387,7 +387,10 @@
     "Response 2 does not come from cache"
   ],
   "freshness-max-age-s-maxage-shared-longer": true,
-  "freshness-max-age-s-maxage-shared-longer-multiple": true,
+  "freshness-max-age-s-maxage-shared-longer-multiple": [
+    "AbortError",
+    "This operation was aborted"
+  ],
   "freshness-max-age-s-maxage-shared-longer-reversed": true,
   "freshness-max-age-s-maxage-shared-shorter": true,
   "freshness-max-age-s-maxage-shared-shorter-expires": true,
@@ -396,15 +399,15 @@
   "freshness-max-age-space-before-equals": true,
   "freshness-max-age-stale": true,
   "freshness-max-age-two-fresh-stale-sameline": true,
-  "freshness-max-age-two-fresh-stale-sepline": [
-    "Assertion",
-    "Response 2 does not come from cache"
-  ],
+  "freshness-max-age-two-fresh-stale-sepline": true,
   "freshness-max-age-two-stale-fresh-sameline": [
+    "AbortError",
+    "This operation was aborted"
+  ],
+  "freshness-max-age-two-stale-fresh-sepline": [
     "Assertion",
     "Response 2 does not come from cache"
   ],
-  "freshness-max-age-two-stale-fresh-sepline": true,
   "freshness-none": true,
   "freshness-s-maxage-shared": true,
   "head-200-freshness-update": [
@@ -456,14 +459,8 @@
   "headers-store-Proxy-Authenticate": true,
   "headers-store-Proxy-Authentication-Info": true,
   "headers-store-Proxy-Authorization": true,
-  "headers-store-Proxy-Connection": [
-    "AbortError",
-    "This operation was aborted"
-  ],
-  "headers-store-Public-Key-Pins": [
-    "AbortError",
-    "This operation was aborted"
-  ],
+  "headers-store-Proxy-Connection": true,
+  "headers-store-Public-Key-Pins": true,
   "headers-store-Set-Cookie": [
     "Setup",
     "Response 2 does not come from cache"
@@ -477,15 +474,9 @@
   ],
   "headers-store-Upgrade": true,
   "headers-store-X-Content-Foo": true,
-  "headers-store-X-Frame-Options": [
-    "AbortError",
-    "This operation was aborted"
-  ],
+  "headers-store-X-Frame-Options": true,
   "headers-store-X-Test-Header": true,
-  "headers-store-X-XSS-Protection": [
-    "AbortError",
-    "This operation was aborted"
-  ],
+  "headers-store-X-XSS-Protection": true,
   "heuristic-200-cached": [
     "Assertion",
     "Response 2 does not come from cache"
@@ -542,16 +533,16 @@
     "Response 2 does not come from cache"
   ],
   "heuristic-delta-30": [
-    "Assertion",
-    "Response 2 does not come from cache"
+    "AbortError",
+    "This operation was aborted"
   ],
   "heuristic-delta-300": [
     "Assertion",
     "Response 2 does not come from cache"
   ],
   "heuristic-delta-3600": [
-    "Assertion",
-    "Response 2 does not come from cache"
+    "AbortError",
+    "This operation was aborted"
   ],
   "heuristic-delta-43200": [
     "Assertion",
@@ -566,8 +557,8 @@
     "Response 2 does not come from cache"
   ],
   "heuristic-delta-600": [
-    "Assertion",
-    "Response 2 does not come from cache"
+    "AbortError",
+    "This operation was aborted"
   ],
   "heuristic-delta-86400": [
     "Assertion",
@@ -626,8 +617,8 @@
     "Response 3 comes from cache"
   ],
   "method-POST": [
-    "Assertion",
-    "Response 2 does not come from cache"
+    "AbortError",
+    "This operation was aborted"
   ],
   "other-age-delay": [
     "Assertion",
@@ -655,11 +646,11 @@
   "other-cookie": true,
   "other-date-update": [
     "Assertion",
-    "Response 2 header Date is \"Wed, 02 Apr 2025 10:31:53 GMT\", not \"Wed, 02 Apr 2025 10:31:50 GMT\""
+    "Response 2 header Date is \"Wed, 02 Apr 2025 15:37:23 GMT\", not \"Wed, 02 Apr 2025 15:37:20 GMT\""
   ],
   "other-date-update-expires": [
     "Assertion",
-    "Response 2 header Date is \"Wed, 02 Apr 2025 10:31:53 GMT\", not \"Wed, 02 Apr 2025 10:31:50 GMT\""
+    "Response 2 header Date is \"Wed, 02 Apr 2025 15:37:23 GMT\", not \"Wed, 02 Apr 2025 15:37:20 GMT\""
   ],
   "other-date-update-expires-update": true,
   "other-fresh-content-disposition-attachment": true,
@@ -761,8 +752,14 @@
   "status-203-stale": true,
   "status-204-fresh": true,
   "status-204-stale": true,
-  "status-299-fresh": true,
-  "status-299-stale": true,
+  "status-299-fresh": [
+    "AbortError",
+    "This operation was aborted"
+  ],
+  "status-299-stale": [
+    "Setup",
+    "Response 1 status is 409, not 299"
+  ],
   "status-301-fresh": true,
   "status-301-stale": true,
   "status-302-fresh": true,
@@ -772,9 +769,18 @@
   "status-307-fresh": true,
   "status-307-stale": true,
   "status-308-fresh": true,
-  "status-308-stale": true,
-  "status-400-fresh": true,
-  "status-400-stale": true,
+  "status-308-stale": [
+    "AbortError",
+    "This operation was aborted"
+  ],
+  "status-400-fresh": [
+    "Setup",
+    "Response 1 status is 409, not 400"
+  ],
+  "status-400-stale": [
+    "Setup",
+    "Response 1 status is 409, not 400"
+  ],
   "status-404-fresh": true,
   "status-404-stale": true,
   "status-410-fresh": true,
@@ -828,7 +834,10 @@
     "Assertion",
     "Response 2 comes from cache"
   ],
-  "vary-syntax-empty-star-lines": true,
+  "vary-syntax-empty-star-lines": [
+    "Assertion",
+    "Response 2 comes from cache"
+  ],
   "vary-syntax-foo-star": [
     "Assertion",
     "Response 2 comes from cache"
@@ -842,5 +851,8 @@
     "Assertion",
     "Response 2 comes from cache"
   ],
-  "vary-syntax-star-star-lines": true
+  "vary-syntax-star-star-lines": [
+    "Assertion",
+    "Response 2 comes from cache"
+  ]
 }

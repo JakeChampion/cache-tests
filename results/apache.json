@@ -6,10 +6,7 @@
     "retry"
   ],
   "304-etag-update-response-Content-Foo": true,
-  "304-etag-update-response-Content-Length": [
-    "Setup",
-    "retry"
-  ],
+  "304-etag-update-response-Content-Length": true,
   "304-etag-update-response-Content-Location": [
     "Setup",
     "retry"
@@ -24,8 +21,8 @@
   ],
   "304-etag-update-response-Content-Security-Policy": true,
   "304-etag-update-response-Content-Type": [
-    "Setup",
-    "retry"
+    "Assertion",
+    "Response 2 header Content-Type is \"text/plain\", not \"text/plain;charset=utf-8\""
   ],
   "304-etag-update-response-ETag": [
     "Setup",
@@ -64,7 +61,10 @@
     "Assertion",
     "Response 2 comes from cache"
   ],
-  "age-parse-suffix-twoline": true,
+  "age-parse-suffix-twoline": [
+    "Assertion",
+    "Response 2 comes from cache"
+  ],
   "cc-resp-must-revalidate-fresh": true,
   "cc-resp-must-revalidate-stale": true,
   "cc-resp-no-cache": true,
@@ -100,7 +100,7 @@
   "cdn-date-update-exceed": true,
   "cdn-expires-update-exceed": [
     "Assertion",
-    "Response 2 header Expires is \"null\", not \"Wed, 02 Apr 2025 10:32:56 GMT\""
+    "Response 2 header Expires is \"null\", not \"Wed, 02 Apr 2025 15:38:43 GMT\""
   ],
   "cdn-fresh-cc-nostore": [
     "Assertion",
@@ -260,7 +260,10 @@
   "freshness-expires-wrong-case-tz": true,
   "freshness-expires-wrong-case-weekday": true,
   "freshness-max-age": true,
-  "freshness-max-age-0": true,
+  "freshness-max-age-0": [
+    "AbortError",
+    "This operation was aborted"
+  ],
   "freshness-max-age-0-expires": true,
   "freshness-max-age-100a": [
     "Assertion",
@@ -298,7 +301,10 @@
   ],
   "freshness-max-age-s-maxage-shared-longer": true,
   "freshness-max-age-s-maxage-shared-longer-multiple": true,
-  "freshness-max-age-s-maxage-shared-longer-reversed": true,
+  "freshness-max-age-s-maxage-shared-longer-reversed": [
+    "AbortError",
+    "This operation was aborted"
+  ],
   "freshness-max-age-s-maxage-shared-shorter": true,
   "freshness-max-age-s-maxage-shared-shorter-expires": true,
   "freshness-max-age-single-quoted": true,
@@ -313,7 +319,10 @@
     "Assertion",
     "Response 2 does not come from cache"
   ],
-  "freshness-max-age-two-stale-fresh-sameline": true,
+  "freshness-max-age-two-stale-fresh-sameline": [
+    "AbortError",
+    "This operation was aborted"
+  ],
   "freshness-max-age-two-stale-fresh-sepline": true,
   "freshness-none": true,
   "freshness-s-maxage-shared": true,
@@ -366,7 +375,10 @@
   "headers-store-X-Frame-Options": true,
   "headers-store-X-Test-Header": true,
   "headers-store-X-XSS-Protection": true,
-  "heuristic-200-cached": true,
+  "heuristic-200-cached": [
+    "AbortError",
+    "This operation was aborted"
+  ],
   "heuristic-201-not_cached": true,
   "heuristic-202-not_cached": true,
   "heuristic-203-cached": true,
@@ -410,8 +422,8 @@
   "heuristic-delta-1200": true,
   "heuristic-delta-1800": true,
   "heuristic-delta-30": [
-    "Assertion",
-    "Response 2 does not come from cache"
+    "AbortError",
+    "This operation was aborted"
   ],
   "heuristic-delta-300": true,
   "heuristic-delta-3600": true,
@@ -493,11 +505,11 @@
   "other-cookie": true,
   "other-date-update": [
     "Assertion",
-    "Response 2 header Date is \"Wed, 02 Apr 2025 10:32:50 GMT\", not \"Wed, 02 Apr 2025 10:32:47 GMT\""
+    "Response 2 header Date is \"Wed, 02 Apr 2025 15:38:37 GMT\", not \"Wed, 02 Apr 2025 15:38:34 GMT\""
   ],
   "other-date-update-expires": [
     "Assertion",
-    "Response 2 header Date is \"Wed, 02 Apr 2025 10:32:50 GMT\", not \"Wed, 02 Apr 2025 10:32:47 GMT\""
+    "Response 2 header Date is \"Wed, 02 Apr 2025 15:38:37 GMT\", not \"Wed, 02 Apr 2025 15:38:34 GMT\""
   ],
   "other-date-update-expires-update": true,
   "other-fresh-content-disposition-attachment": true,
@@ -557,7 +569,10 @@
     "TypeError",
     "fetch failed"
   ],
-  "stale-close-proxy-revalidate": true,
+  "stale-close-proxy-revalidate": [
+    "TypeError",
+    "fetch failed"
+  ],
   "stale-close-s-maxage=2": [
     "TypeError",
     "fetch failed"
@@ -566,18 +581,12 @@
     "TypeError",
     "fetch failed"
   ],
-  "stale-sie-close": [
-    "TypeError",
-    "fetch failed"
-  ],
+  "stale-sie-close": true,
   "stale-warning-become": [
     "TypeError",
     "fetch failed"
   ],
-  "stale-warning-stored": [
-    "TypeError",
-    "fetch failed"
-  ],
+  "stale-warning-stored": true,
   "stale-while-revalidate": [
     "Assertion",
     "Response 2 does not come from cache"
@@ -675,10 +684,7 @@
   "vary-omit-stored": true,
   "vary-star": true,
   "vary-syntax-empty-star": true,
-  "vary-syntax-empty-star-lines": [
-    "Assertion",
-    "Response 2 comes from cache"
-  ],
+  "vary-syntax-empty-star-lines": true,
   "vary-syntax-foo-star": true,
   "vary-syntax-star": true,
   "vary-syntax-star-foo": true,

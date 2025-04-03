@@ -106,7 +106,10 @@
     "Assertion",
     "Response 2 comes from cache"
   ],
-  "age-parse-suffix-twoline": true,
+  "age-parse-suffix-twoline": [
+    "Assertion",
+    "Response 2 comes from cache"
+  ],
   "cc-resp-must-revalidate-fresh": true,
   "cc-resp-must-revalidate-stale": [
     "Assertion",
@@ -178,7 +181,7 @@
   "cdn-date-update-exceed": true,
   "cdn-expires-update-exceed": [
     "Assertion",
-    "Response 2 header Expires is \"null\", not \"Wed, 02 Apr 2025 10:34:40 GMT\""
+    "Response 2 header Expires is \"null\", not \"Wed, 02 Apr 2025 15:40:26 GMT\""
   ],
   "cdn-fresh-cc-nostore": true,
   "cdn-max-age": true,
