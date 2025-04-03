@@ -31,7 +31,7 @@ if (testId !== '') {
   testsToRun = tests
 }
 
-await runTests(testsToRun, false, baseUrl, 1).catch(err => {
+await runTests(testsToRun, false, baseUrl, 25).catch(err => {
   console.error(err)
   process.exit(1)
 })
