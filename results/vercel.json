@@ -735,37 +735,28 @@
     "Assertion",
     "Response 2 does not come from cache"
   ],
-  "invalidate-DELETE": [
-    "AbortError",
-    "This operation was aborted"
-  ],
-  "invalidate-DELETE-cl": [
-    "AbortError",
-    "This operation was aborted"
-  ],
+  "invalidate-DELETE": true,
+  "invalidate-DELETE-cl": true,
   "invalidate-DELETE-failed": [
-    "AbortError",
-    "This operation was aborted"
+    "Assertion",
+    "Response 3 does not come from cache"
   ],
-  "invalidate-DELETE-location": [
-    "AbortError",
-    "This operation was aborted"
-  ],
+  "invalidate-DELETE-location": true,
   "invalidate-M-SEARCH": [
-    "AbortError",
-    "This operation was aborted"
+    "Setup",
+    "Response 2 status is 500, not 200"
   ],
   "invalidate-M-SEARCH-cl": [
-    "AbortError",
-    "This operation was aborted"
+    "Setup",
+    "Response 2 status is 500, not 200"
   ],
   "invalidate-M-SEARCH-failed": [
-    "AbortError",
-    "This operation was aborted"
+    "Setup",
+    "Response body is \"A server error has occurred\n\nFUNCTION_INVOCATION_FAILED\n\nlhr1::wqxr6-1743680419283-f93c55952451\n\", not \"348ca549-59c4-4d22-888a-1ca7602d77e8\""
   ],
   "invalidate-M-SEARCH-location": [
-    "AbortError",
-    "This operation was aborted"
+    "Setup",
+    "Response 2 status is 500, not 200"
   ],
   "invalidate-POST": true,
   "invalidate-POST-cl": true,

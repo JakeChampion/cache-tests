@@ -184,7 +184,7 @@
   "cdn-date-update-exceed": true,
   "cdn-expires-update-exceed": [
     "Assertion",
-    "Response 2 header Expires is \"null\", not \"Thu, 03 Apr 2025 11:17:41 GMT\""
+    "Response 2 header Expires is \"null\", not \"Thu, 03 Apr 2025 11:40:08 GMT\""
   ],
   "cdn-fresh-cc-nostore": [
     "Assertion",
@@ -295,7 +295,7 @@
   ],
   "conditional-etag-vary-headers-mismatch": [
     "Setup",
-    "Response 1 header ETag is \"W/\"abcdef\"\", not \"\"abcdef\"\""
+    "Response 1 header Vary is \"Abc, Accept-Encoding\", not \"Abc\""
   ],
   "conditional-etag-weak-generate-weak": [
     "Assertion",
