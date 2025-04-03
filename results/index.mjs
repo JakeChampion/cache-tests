@@ -59,6 +59,18 @@ export default [
     file: 'netlify.json',
     name: 'Netlify',
     type: 'cdn',
-    version: '2025-04-02'
-  }
+    version: '2025-04-03'
+  },
+  {
+    file: 'vercel.json',
+    name: 'Cercel',
+    type: 'cdn',
+    version: '2025-04-03'
+  },
+  {
+    file: 'cloudflare.json',
+    name: 'Cloudflare',
+    type: 'cdn',
+    version: '2025-04-03'
+  },
 ]
