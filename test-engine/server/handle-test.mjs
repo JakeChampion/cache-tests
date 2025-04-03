@@ -73,9 +73,9 @@ function continueHandleTest (uuid, request, response, requests, serverState) {
     if (response.hasHeader(header[0])) {
       const currentVal = response.getHeader(header[0])
       if (typeof currentVal === 'string') {
-        response.setHeader(header[0], currentVal+','+header[1])
+        response.setHeader(header[0], currentVal + ',' + header[1])
       } else if (Array.isArray(currentVal)) {
-        response.setHeader(header[0], currentVal+','+header[1].join(','))
+        response.setHeader(header[0], currentVal + ',' + header[1].join(','))
       } else {
         console.error(`ERROR: Unanticipated header type of ${typeof currentVal} for ${header[0]}`)
       }
