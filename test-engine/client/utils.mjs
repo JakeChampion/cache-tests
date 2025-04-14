@@ -1,6 +1,7 @@
 import * as config from './config.mjs'
 import * as utils from '../lib/utils.mjs'
 import * as defines from '../lib/defines.mjs'
+import { fetch } from "./fetching.mjs";
 
 export function pause () {
   return new Promise(function (resolve, reject) {

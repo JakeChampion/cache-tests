@@ -5,6 +5,7 @@ import tests from '../tests/index.mjs'
 
 const baseUrl = process.env.npm_config_base || process.env.npm_package_config_base
 const testId = process.env.npm_config_id || process.env.npm_package_config_id
+const destination = process.env.npm_config_connect_to || process.env.npm_package_connect_to
 
 let testsToRun
 if (testId !== '') {
@@ -31,7 +32,7 @@ if (testId !== '') {
   testsToRun = tests
 }
 
-await runTests(testsToRun, false, baseUrl, 25).catch(err => {
+await runTests({ tests: testsToRun, browserCache: false, base: baseUrl, chunkSize: 25, destination }).catch(err => {
   console.error(err)
   process.exit(1)
 })

@@ -8,12 +8,12 @@
       import { runTests, getResults } from './test-engine/client/runner.mjs'
       import { testUUIDs } from './test-engine/client/test.mjs'
       import * as display from './test-engine/lib/display.mjs'
-      import baseTests from './tests/index.mjs'
+      import tests from './tests/index.mjs'
 
-      runTests(baseTests, true)
+      runTests({tests, browserCache: true})
         .then(function() {
           let resultsTarget = document.getElementById('results')
-          display.renderTestResults(baseTests, getResults(), testUUIDs, resultsTarget, true)
+          display.renderTestResults(tests, getResults(), testUUIDs, resultsTarget, true)
         })
         .then(function() {
           let params = (new URL(location)).searchParams
