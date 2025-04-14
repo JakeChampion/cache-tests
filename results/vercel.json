@@ -471,12 +471,12 @@
     "Response 1 header Cache-Control is \"max-age=3600\", not \"s-maxage=1,max-age=3600\""
   ],
   "freshness-max-age-s-maxage-shared-shorter": [
-    "Assertion",
-    "Response 2 does not come from cache"
+    "Setup",
+    "Response 1 header Cache-Control is \"max-age=1\", not \"max-age=1,s-maxage=3600\""
   ],
   "freshness-max-age-s-maxage-shared-shorter-expires": [
-    "Assertion",
-    "Response 2 does not come from cache"
+    "Setup",
+    "Response 1 header Cache-Control is \"max-age=0\", not \"max-age=0,s-maxage=3600\""
   ],
   "freshness-max-age-single-quoted": true,
   "freshness-max-age-space-after-equals": true,
@@ -500,8 +500,8 @@
   ],
   "freshness-none": true,
   "freshness-s-maxage-shared": [
-    "Assertion",
-    "Response 2 does not come from cache"
+    "Setup",
+    "Response 1 header Cache-Control is \"public, max-age=0, must-revalidate\", not \"s-maxage=3600\""
   ],
   "head-200-freshness-update": [
     "Assertion",
@@ -752,7 +752,7 @@
   ],
   "invalidate-M-SEARCH-failed": [
     "Setup",
-    "Response body is \"A server error has occurred\n\nFUNCTION_INVOCATION_FAILED\n\nlhr1::r89w2-1743688367034-f067f5b48157\n\", not \"9ba16a16-e6ea-4487-a0bf-5621c62e2ff4\""
+    "Response body is \"A server error has occurred\n\nFUNCTION_INVOCATION_FAILED\n\nlhr1::55tn5-1744624425903-9df113bb6785\n\", not \"a3a4f3fd-0edf-443a-aa27-3aaf1e719527\""
   ],
   "invalidate-M-SEARCH-location": [
     "Setup",

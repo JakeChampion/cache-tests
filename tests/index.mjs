@@ -12,6 +12,7 @@ import methods from './method.mjs'
 import statuses from './status.mjs'
 import vary from './vary.mjs'
 import varyParse from './vary-parse.mjs'
+import netlifyVaryParse from './netlify-vary-parse.mjs'
 import conditionalLm from './conditional-lm.mjs'
 import conditionalEtag from './conditional-etag.mjs'
 import headers from './headers.mjs'
@@ -23,4 +24,30 @@ import auth from './authorization.mjs'
 import other from './other.mjs'
 import cdncc from './cdn-cache-control.mjs'
 
-export default [ccFreshness, ccParse, ageParse, expires, expiresParse, ccResponse, stale, heuristic, methods, statuses, ccRequest, pragma, vary, varyParse, conditionalLm, conditionalEtag, headers, update304, updateHead, invalidation, partial, auth, other, cdncc]
+export default [
+  ccFreshness,
+  ccParse,
+  ageParse,
+  expires,
+  expiresParse,
+  ccResponse,
+  stale,
+  heuristic,
+  methods,
+  statuses,
+  ccRequest,
+  pragma,
+  vary,
+  varyParse,
+  netlifyVaryParse,
+  conditionalLm,
+  conditionalEtag,
+  headers,
+  update304,
+  updateHead,
+  invalidation,
+  partial,
+  auth,
+  other,
+  cdncc
+]
