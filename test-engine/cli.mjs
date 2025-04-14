@@ -32,7 +32,7 @@ if (testId !== '') {
   testsToRun = tests
 }
 
-await runTests({ tests: testsToRun, browserCache: false, base: baseUrl, chunkSize: 25, destination }).catch(err => {
+await runTests({ tests: testsToRun, browserCache: false, base: baseUrl, chunkSize: 1, destination }).catch(err => {
   console.error(err)
   process.exit(1)
 })

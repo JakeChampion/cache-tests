@@ -1,10 +1,10 @@
 import * as config from './config.mjs'
 import { fixupHeader } from '../lib/header-fixup.mjs'
 
-import http from 'node:http';
-import https from 'node:https';
+import http from 'node:http'
+import https from 'node:https'
 
-import nfetch from "node-fetch";
+import nfetch from 'node-fetch'
 
 const lookup = (_hostname, options, callback) => {
   if (options.all) {
@@ -17,34 +17,34 @@ const lookup = (_hostname, options, callback) => {
 const httpAgent = new http.Agent({
   keepAlive: true,
   lookup
-});
+})
 const httpsAgent = new https.Agent({
   keepAlive: true,
-  lookup 
-});
+  lookup
+})
 
 const agent = function (_parsedURL) {
-  if (_parsedURL.protocol == 'http:') {
-    return httpAgent;
+  if (_parsedURL.protocol === 'http:') {
+    return httpAgent
   } else {
-    return httpsAgent;
+    return httpsAgent
   }
 }
 
-export function fetch(url, init) {
+export function fetch (url, init) {
   if (config.destination) {
     if (init) {
       init.agent = agent
     } else {
       init = {
-        agent: agent
+        agent
       }
     }
   }
   return nfetch(url, init)
 }
 
-export function init(idx, reqConfig, prevResp) {
+export function init (idx, reqConfig, prevResp) {
   const init = {
     headers: []
   }
@@ -54,7 +54,7 @@ export function init(idx, reqConfig, prevResp) {
     init.headers.push(['Cache-Control', 'nothing-to-see-here']) // ditto
   }
   if (config.destination) {
-    init.agent = agent;
+    init.agent = agent
   }
   if ('request_method' in reqConfig) init.method = reqConfig.request_method
   if ('request_headers' in reqConfig) init.headers = init.headers.concat(reqConfig.request_headers)
@@ -77,7 +77,7 @@ export function init(idx, reqConfig, prevResp) {
   return init
 }
 
-export function inflateRequests(test) {
+export function inflateRequests (test) {
   const rawRequests = test.requests
   const requests = []
   for (let i = 0; i < rawRequests.length; i++) {

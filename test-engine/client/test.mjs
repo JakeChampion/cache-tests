@@ -10,7 +10,7 @@ const setupCheck = clientUtils.setupCheck
 export const testUUIDs = {}
 export const testResults = {}
 
-export async function makeTest(test) {
+export async function makeTest (test) {
   const uuid = utils.token()
   testUUIDs[test.id] = uuid
   const requests = fetching.inflateRequests(test)
@@ -47,7 +47,7 @@ export async function makeTest(test) {
   }
 
   let idx = 0
-  function runNextStep() {
+  function runNextStep () {
     if (fetchFunctions.length) {
       const nextFetchFunction = fetchFunctions.shift()
       if (nextFetchFunction.pauseAfter === true) {
@@ -61,7 +61,7 @@ export async function makeTest(test) {
     }
   }
 
-  function handleError(err) {
+  function handleError (err) {
     console.error(`ERROR: ${uuid} ${err.name} ${err.message}`)
   }
 
@@ -84,7 +84,7 @@ export async function makeTest(test) {
     })
 }
 
-function checkResponse(test, requests, idx, response) {
+function checkResponse (test, requests, idx, response) {
   const reqNum = idx + 1
   const reqConfig = requests[idx]
   const resNum = parseInt(response.headers.get('Server-Request-Count'))
@@ -188,8 +188,8 @@ function checkResponse(test, requests, idx, response) {
   return response.text().then(makeCheckResponseBody(test, reqConfig, response.status))
 }
 
-function makeCheckResponseBody(test, reqConfig, statusCode) {
-  return function checkResponseBody(resBody) {
+function makeCheckResponseBody (test, reqConfig, statusCode) {
+  return function checkResponseBody (resBody) {
     if ('check_body' in reqConfig && reqConfig.check_body === false) {
       return true
     } else if ('expected_response_text' in reqConfig) {
@@ -211,7 +211,7 @@ function makeCheckResponseBody(test, reqConfig, statusCode) {
   }
 }
 
-function checkServerRequests(requests, responses, serverState) {
+function checkServerRequests (requests, responses, serverState) {
   // compare a test's requests array against the server-side serverState
   let testIdx = 0
   for (let i = 0; i < requests.length; ++i) {

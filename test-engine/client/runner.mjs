@@ -1,7 +1,7 @@
 import * as config from './config.mjs'
 import { makeTest, testResults } from './test.mjs'
 
-export async function runTests ({tests, browserCache, base, chunkSize = 1, destination} = options) {
+export async function runTests ({ tests, browserCache, base, chunkSize = 1, destination }) {
   config.setBaseUrl(base)
   config.setUseBrowserCache(browserCache)
   if (destination) {
