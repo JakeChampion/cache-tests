@@ -3,7 +3,8 @@ import { makeTemplate } from './lib/templates.mjs'
 const netlifyVaryParseSetup = makeTemplate({
   request_headers: [
     ['Foo', '1'],
-    ['Baz', '789']
+    ['Baz', '789'],
+    ['X-Nf-New-Nf-Vary-Parser', 'true']
   ],
   response_headers: [
     ['Cache-Control', 'max-age=5000'],
