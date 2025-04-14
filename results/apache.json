@@ -103,7 +103,7 @@
   "cdn-date-update-exceed": true,
   "cdn-expires-update-exceed": [
     "Assertion",
-    "Response 2 header Expires is \"null\", not \"Mon, 14 Apr 2025 11:12:57 GMT\""
+    "Response 2 header Expires is \"null\", not \"Mon, 14 Apr 2025 15:07:43 GMT\""
   ],
   "cdn-fresh-cc-nostore": [
     "Assertion",
@@ -653,66 +653,6 @@
     "Assertion",
     "Response 2 comes from cache"
   ],
-  "netlify-vary-syntax-invalid-cookie=a|": [
-    "Assertion",
-    "Response 2 comes from cache"
-  ],
-  "netlify-vary-syntax-invalid-cookie=a|-cookie=a|b": [
-    "Assertion",
-    "Response 2 comes from cache"
-  ],
-  "netlify-vary-syntax-invalid-cookie=a|-cookie=a|b-lines": [
-    "Assertion",
-    "Response 2 comes from cache"
-  ],
-  "netlify-vary-syntax-invalid-cookie=a|-country=en+es|ab": [
-    "Assertion",
-    "Response 2 comes from cache"
-  ],
-  "netlify-vary-syntax-invalid-cookie=a|-country=en+es|ab-lines": [
-    "Assertion",
-    "Response 2 comes from cache"
-  ],
-  "netlify-vary-syntax-invalid-cookie=a|-empty": [
-    "Assertion",
-    "Response 2 comes from cache"
-  ],
-  "netlify-vary-syntax-invalid-cookie=a|-empty-lines": [
-    "Assertion",
-    "Response 2 comes from cache"
-  ],
-  "netlify-vary-syntax-invalid-cookie=a|-header=a|b": [
-    "Assertion",
-    "Response 2 comes from cache"
-  ],
-  "netlify-vary-syntax-invalid-cookie=a|-header=a|b-lines": [
-    "Assertion",
-    "Response 2 comes from cache"
-  ],
-  "netlify-vary-syntax-invalid-cookie=a|-language=en+es|ab": [
-    "Assertion",
-    "Response 2 comes from cache"
-  ],
-  "netlify-vary-syntax-invalid-cookie=a|-language=en+es|ab-lines": [
-    "Assertion",
-    "Response 2 comes from cache"
-  ],
-  "netlify-vary-syntax-invalid-cookie=a|-query": [
-    "Assertion",
-    "Response 2 comes from cache"
-  ],
-  "netlify-vary-syntax-invalid-cookie=a|-query-lines": [
-    "Assertion",
-    "Response 2 comes from cache"
-  ],
-  "netlify-vary-syntax-invalid-cookie=a|-query=ab|a": [
-    "Assertion",
-    "Response 2 comes from cache"
-  ],
-  "netlify-vary-syntax-invalid-cookie=a|-query=ab|a-lines": [
-    "Assertion",
-    "Response 2 comes from cache"
-  ],
   "netlify-vary-syntax-invalid-cookie=a|b-cookie": [
     "Assertion",
     "Response 2 comes from cache"
@@ -737,27 +677,11 @@
     "Assertion",
     "Response 2 comes from cache"
   ],
-  "netlify-vary-syntax-invalid-cookie=a|b-cookie=a|": [
-    "Assertion",
-    "Response 2 comes from cache"
-  ],
-  "netlify-vary-syntax-invalid-cookie=a|b-cookie=a|-lines": [
-    "Assertion",
-    "Response 2 comes from cache"
-  ],
   "netlify-vary-syntax-invalid-cookie=a|b-cookie=|": [
     "Assertion",
     "Response 2 comes from cache"
   ],
   "netlify-vary-syntax-invalid-cookie=a|b-cookie=|-lines": [
-    "Assertion",
-    "Response 2 comes from cache"
-  ],
-  "netlify-vary-syntax-invalid-cookie=a|b-cookie=|a": [
-    "Assertion",
-    "Response 2 comes from cache"
-  ],
-  "netlify-vary-syntax-invalid-cookie=a|b-cookie=|a-lines": [
     "Assertion",
     "Response 2 comes from cache"
   ],
@@ -793,23 +717,7 @@
     "Assertion",
     "Response 2 comes from cache"
   ],
-  "netlify-vary-syntax-invalid-cookie=a|b-country=+ab+|": [
-    "Assertion",
-    "Response 2 comes from cache"
-  ],
-  "netlify-vary-syntax-invalid-cookie=a|b-country=+ab+|-lines": [
-    "Assertion",
-    "Response 2 comes from cache"
-  ],
   "netlify-vary-syntax-invalid-cookie=a|b-country=+ab-lines": [
-    "Assertion",
-    "Response 2 comes from cache"
-  ],
-  "netlify-vary-syntax-invalid-cookie=a|b-country=+|ab": [
-    "Assertion",
-    "Response 2 comes from cache"
-  ],
-  "netlify-vary-syntax-invalid-cookie=a|b-country=+|ab-lines": [
     "Assertion",
     "Response 2 comes from cache"
   ],
@@ -833,22 +741,6 @@
     "Assertion",
     "Response 2 comes from cache"
   ],
-  "netlify-vary-syntax-invalid-cookie=a|b-country=ab|": [
-    "Assertion",
-    "Response 2 comes from cache"
-  ],
-  "netlify-vary-syntax-invalid-cookie=a|b-country=ab|+": [
-    "Assertion",
-    "Response 2 comes from cache"
-  ],
-  "netlify-vary-syntax-invalid-cookie=a|b-country=ab|+-lines": [
-    "Assertion",
-    "Response 2 comes from cache"
-  ],
-  "netlify-vary-syntax-invalid-cookie=a|b-country=ab|-lines": [
-    "Assertion",
-    "Response 2 comes from cache"
-  ],
   "netlify-vary-syntax-invalid-cookie=a|b-country=e n": [
     "Assertion",
     "Response 2 comes from cache"
@@ -862,14 +754,6 @@
     "Response 2 comes from cache"
   ],
   "netlify-vary-syntax-invalid-cookie=a|b-country=|-lines": [
-    "Assertion",
-    "Response 2 comes from cache"
-  ],
-  "netlify-vary-syntax-invalid-cookie=a|b-country=|ab": [
-    "Assertion",
-    "Response 2 comes from cache"
-  ],
-  "netlify-vary-syntax-invalid-cookie=a|b-country=|ab-lines": [
     "Assertion",
     "Response 2 comes from cache"
   ],
@@ -905,27 +789,11 @@
     "Assertion",
     "Response 2 comes from cache"
   ],
-  "netlify-vary-syntax-invalid-cookie=a|b-header=a|": [
-    "Assertion",
-    "Response 2 comes from cache"
-  ],
-  "netlify-vary-syntax-invalid-cookie=a|b-header=a|-lines": [
-    "Assertion",
-    "Response 2 comes from cache"
-  ],
   "netlify-vary-syntax-invalid-cookie=a|b-header=|": [
     "Assertion",
     "Response 2 comes from cache"
   ],
   "netlify-vary-syntax-invalid-cookie=a|b-header=|-lines": [
-    "Assertion",
-    "Response 2 comes from cache"
-  ],
-  "netlify-vary-syntax-invalid-cookie=a|b-header=|a": [
-    "Assertion",
-    "Response 2 comes from cache"
-  ],
-  "netlify-vary-syntax-invalid-cookie=a|b-header=|a-lines": [
     "Assertion",
     "Response 2 comes from cache"
   ],
@@ -961,14 +829,6 @@
     "Assertion",
     "Response 2 comes from cache"
   ],
-  "netlify-vary-syntax-invalid-cookie=a|b-language=+ab+|": [
-    "Assertion",
-    "Response 2 comes from cache"
-  ],
-  "netlify-vary-syntax-invalid-cookie=a|b-language=+ab+|-lines": [
-    "Assertion",
-    "Response 2 comes from cache"
-  ],
   "netlify-vary-syntax-invalid-cookie=a|b-language=+ab-lines": [
     "Assertion",
     "Response 2 comes from cache"
@@ -1001,19 +861,11 @@
     "Assertion",
     "Response 2 comes from cache"
   ],
-  "netlify-vary-syntax-invalid-cookie=a|b-language=ab|": [
-    "Assertion",
-    "Response 2 comes from cache"
-  ],
   "netlify-vary-syntax-invalid-cookie=a|b-language=ab|+": [
     "Assertion",
     "Response 2 comes from cache"
   ],
   "netlify-vary-syntax-invalid-cookie=a|b-language=ab|+-lines": [
-    "Assertion",
-    "Response 2 comes from cache"
-  ],
-  "netlify-vary-syntax-invalid-cookie=a|b-language=ab|-lines": [
     "Assertion",
     "Response 2 comes from cache"
   ],
@@ -1033,14 +885,6 @@
     "Assertion",
     "Response 2 comes from cache"
   ],
-  "netlify-vary-syntax-invalid-cookie=a|b-language=|ab": [
-    "Assertion",
-    "Response 2 comes from cache"
-  ],
-  "netlify-vary-syntax-invalid-cookie=a|b-language=|ab-lines": [
-    "Assertion",
-    "Response 2 comes from cache"
-  ],
   "netlify-vary-syntax-invalid-cookie=a|b-query=": [
     "Assertion",
     "Response 2 comes from cache"
@@ -1049,27 +893,11 @@
     "Assertion",
     "Response 2 comes from cache"
   ],
-  "netlify-vary-syntax-invalid-cookie=a|b-query=ab|": [
-    "Assertion",
-    "Response 2 comes from cache"
-  ],
-  "netlify-vary-syntax-invalid-cookie=a|b-query=ab|-lines": [
-    "Assertion",
-    "Response 2 comes from cache"
-  ],
   "netlify-vary-syntax-invalid-cookie=a|b-query=|": [
     "Assertion",
     "Response 2 comes from cache"
   ],
   "netlify-vary-syntax-invalid-cookie=a|b-query=|-lines": [
-    "Assertion",
-    "Response 2 comes from cache"
-  ],
-  "netlify-vary-syntax-invalid-cookie=a|b-query=|ab": [
-    "Assertion",
-    "Response 2 comes from cache"
-  ],
-  "netlify-vary-syntax-invalid-cookie=a|b-query=|ab-lines": [
     "Assertion",
     "Response 2 comes from cache"
   ],
@@ -1138,66 +966,6 @@
     "Response 2 comes from cache"
   ],
   "netlify-vary-syntax-invalid-cookie=|-query=ab|a-lines": [
-    "Assertion",
-    "Response 2 comes from cache"
-  ],
-  "netlify-vary-syntax-invalid-cookie=|a": [
-    "Assertion",
-    "Response 2 comes from cache"
-  ],
-  "netlify-vary-syntax-invalid-cookie=|a-cookie=a|b": [
-    "Assertion",
-    "Response 2 comes from cache"
-  ],
-  "netlify-vary-syntax-invalid-cookie=|a-cookie=a|b-lines": [
-    "Assertion",
-    "Response 2 comes from cache"
-  ],
-  "netlify-vary-syntax-invalid-cookie=|a-country=en+es|ab": [
-    "Assertion",
-    "Response 2 comes from cache"
-  ],
-  "netlify-vary-syntax-invalid-cookie=|a-country=en+es|ab-lines": [
-    "Assertion",
-    "Response 2 comes from cache"
-  ],
-  "netlify-vary-syntax-invalid-cookie=|a-empty": [
-    "Assertion",
-    "Response 2 comes from cache"
-  ],
-  "netlify-vary-syntax-invalid-cookie=|a-empty-lines": [
-    "Assertion",
-    "Response 2 comes from cache"
-  ],
-  "netlify-vary-syntax-invalid-cookie=|a-header=a|b": [
-    "Assertion",
-    "Response 2 comes from cache"
-  ],
-  "netlify-vary-syntax-invalid-cookie=|a-header=a|b-lines": [
-    "Assertion",
-    "Response 2 comes from cache"
-  ],
-  "netlify-vary-syntax-invalid-cookie=|a-language=en+es|ab": [
-    "Assertion",
-    "Response 2 comes from cache"
-  ],
-  "netlify-vary-syntax-invalid-cookie=|a-language=en+es|ab-lines": [
-    "Assertion",
-    "Response 2 comes from cache"
-  ],
-  "netlify-vary-syntax-invalid-cookie=|a-query": [
-    "Assertion",
-    "Response 2 comes from cache"
-  ],
-  "netlify-vary-syntax-invalid-cookie=|a-query-lines": [
-    "Assertion",
-    "Response 2 comes from cache"
-  ],
-  "netlify-vary-syntax-invalid-cookie=|a-query=ab|a": [
-    "Assertion",
-    "Response 2 comes from cache"
-  ],
-  "netlify-vary-syntax-invalid-cookie=|a-query=ab|a-lines": [
     "Assertion",
     "Response 2 comes from cache"
   ],
@@ -1389,66 +1157,6 @@
     "Assertion",
     "Response 2 comes from cache"
   ],
-  "netlify-vary-syntax-invalid-country=+ab+|": [
-    "Assertion",
-    "Response 2 comes from cache"
-  ],
-  "netlify-vary-syntax-invalid-country=+ab+|-cookie=a|b": [
-    "Assertion",
-    "Response 2 comes from cache"
-  ],
-  "netlify-vary-syntax-invalid-country=+ab+|-cookie=a|b-lines": [
-    "Assertion",
-    "Response 2 comes from cache"
-  ],
-  "netlify-vary-syntax-invalid-country=+ab+|-country=en+es|ab": [
-    "Assertion",
-    "Response 2 comes from cache"
-  ],
-  "netlify-vary-syntax-invalid-country=+ab+|-country=en+es|ab-lines": [
-    "Assertion",
-    "Response 2 comes from cache"
-  ],
-  "netlify-vary-syntax-invalid-country=+ab+|-empty": [
-    "Assertion",
-    "Response 2 comes from cache"
-  ],
-  "netlify-vary-syntax-invalid-country=+ab+|-empty-lines": [
-    "Assertion",
-    "Response 2 comes from cache"
-  ],
-  "netlify-vary-syntax-invalid-country=+ab+|-header=a|b": [
-    "Assertion",
-    "Response 2 comes from cache"
-  ],
-  "netlify-vary-syntax-invalid-country=+ab+|-header=a|b-lines": [
-    "Assertion",
-    "Response 2 comes from cache"
-  ],
-  "netlify-vary-syntax-invalid-country=+ab+|-language=en+es|ab": [
-    "Assertion",
-    "Response 2 comes from cache"
-  ],
-  "netlify-vary-syntax-invalid-country=+ab+|-language=en+es|ab-lines": [
-    "Assertion",
-    "Response 2 comes from cache"
-  ],
-  "netlify-vary-syntax-invalid-country=+ab+|-query": [
-    "Assertion",
-    "Response 2 comes from cache"
-  ],
-  "netlify-vary-syntax-invalid-country=+ab+|-query-lines": [
-    "Assertion",
-    "Response 2 comes from cache"
-  ],
-  "netlify-vary-syntax-invalid-country=+ab+|-query=ab|a": [
-    "Assertion",
-    "Response 2 comes from cache"
-  ],
-  "netlify-vary-syntax-invalid-country=+ab+|-query=ab|a-lines": [
-    "Assertion",
-    "Response 2 comes from cache"
-  ],
   "netlify-vary-syntax-invalid-country=+ab-cookie=a|b": [
     "Assertion",
     "Response 2 comes from cache"
@@ -1502,66 +1210,6 @@
     "Response 2 comes from cache"
   ],
   "netlify-vary-syntax-invalid-country=+ab-query=ab|a-lines": [
-    "Assertion",
-    "Response 2 comes from cache"
-  ],
-  "netlify-vary-syntax-invalid-country=+|ab": [
-    "Assertion",
-    "Response 2 comes from cache"
-  ],
-  "netlify-vary-syntax-invalid-country=+|ab-cookie=a|b": [
-    "Assertion",
-    "Response 2 comes from cache"
-  ],
-  "netlify-vary-syntax-invalid-country=+|ab-cookie=a|b-lines": [
-    "Assertion",
-    "Response 2 comes from cache"
-  ],
-  "netlify-vary-syntax-invalid-country=+|ab-country=en+es|ab": [
-    "Assertion",
-    "Response 2 comes from cache"
-  ],
-  "netlify-vary-syntax-invalid-country=+|ab-country=en+es|ab-lines": [
-    "Assertion",
-    "Response 2 comes from cache"
-  ],
-  "netlify-vary-syntax-invalid-country=+|ab-empty": [
-    "Assertion",
-    "Response 2 comes from cache"
-  ],
-  "netlify-vary-syntax-invalid-country=+|ab-empty-lines": [
-    "Assertion",
-    "Response 2 comes from cache"
-  ],
-  "netlify-vary-syntax-invalid-country=+|ab-header=a|b": [
-    "Assertion",
-    "Response 2 comes from cache"
-  ],
-  "netlify-vary-syntax-invalid-country=+|ab-header=a|b-lines": [
-    "Assertion",
-    "Response 2 comes from cache"
-  ],
-  "netlify-vary-syntax-invalid-country=+|ab-language=en+es|ab": [
-    "Assertion",
-    "Response 2 comes from cache"
-  ],
-  "netlify-vary-syntax-invalid-country=+|ab-language=en+es|ab-lines": [
-    "Assertion",
-    "Response 2 comes from cache"
-  ],
-  "netlify-vary-syntax-invalid-country=+|ab-query": [
-    "Assertion",
-    "Response 2 comes from cache"
-  ],
-  "netlify-vary-syntax-invalid-country=+|ab-query-lines": [
-    "Assertion",
-    "Response 2 comes from cache"
-  ],
-  "netlify-vary-syntax-invalid-country=+|ab-query=ab|a": [
-    "Assertion",
-    "Response 2 comes from cache"
-  ],
-  "netlify-vary-syntax-invalid-country=+|ab-query=ab|a-lines": [
     "Assertion",
     "Response 2 comes from cache"
   ],
@@ -1741,126 +1389,6 @@
     "Assertion",
     "Response 2 comes from cache"
   ],
-  "netlify-vary-syntax-invalid-country=ab|": [
-    "Assertion",
-    "Response 2 comes from cache"
-  ],
-  "netlify-vary-syntax-invalid-country=ab|+": [
-    "Assertion",
-    "Response 2 comes from cache"
-  ],
-  "netlify-vary-syntax-invalid-country=ab|+-cookie=a|b": [
-    "Assertion",
-    "Response 2 comes from cache"
-  ],
-  "netlify-vary-syntax-invalid-country=ab|+-cookie=a|b-lines": [
-    "Assertion",
-    "Response 2 comes from cache"
-  ],
-  "netlify-vary-syntax-invalid-country=ab|+-country=en+es|ab": [
-    "Assertion",
-    "Response 2 comes from cache"
-  ],
-  "netlify-vary-syntax-invalid-country=ab|+-country=en+es|ab-lines": [
-    "Assertion",
-    "Response 2 comes from cache"
-  ],
-  "netlify-vary-syntax-invalid-country=ab|+-empty": [
-    "Assertion",
-    "Response 2 comes from cache"
-  ],
-  "netlify-vary-syntax-invalid-country=ab|+-empty-lines": [
-    "Assertion",
-    "Response 2 comes from cache"
-  ],
-  "netlify-vary-syntax-invalid-country=ab|+-header=a|b": [
-    "Assertion",
-    "Response 2 comes from cache"
-  ],
-  "netlify-vary-syntax-invalid-country=ab|+-header=a|b-lines": [
-    "Assertion",
-    "Response 2 comes from cache"
-  ],
-  "netlify-vary-syntax-invalid-country=ab|+-language=en+es|ab": [
-    "Assertion",
-    "Response 2 comes from cache"
-  ],
-  "netlify-vary-syntax-invalid-country=ab|+-language=en+es|ab-lines": [
-    "Assertion",
-    "Response 2 comes from cache"
-  ],
-  "netlify-vary-syntax-invalid-country=ab|+-query": [
-    "Assertion",
-    "Response 2 comes from cache"
-  ],
-  "netlify-vary-syntax-invalid-country=ab|+-query-lines": [
-    "Assertion",
-    "Response 2 comes from cache"
-  ],
-  "netlify-vary-syntax-invalid-country=ab|+-query=ab|a": [
-    "Assertion",
-    "Response 2 comes from cache"
-  ],
-  "netlify-vary-syntax-invalid-country=ab|+-query=ab|a-lines": [
-    "Assertion",
-    "Response 2 comes from cache"
-  ],
-  "netlify-vary-syntax-invalid-country=ab|-cookie=a|b": [
-    "Assertion",
-    "Response 2 comes from cache"
-  ],
-  "netlify-vary-syntax-invalid-country=ab|-cookie=a|b-lines": [
-    "Assertion",
-    "Response 2 comes from cache"
-  ],
-  "netlify-vary-syntax-invalid-country=ab|-country=en+es|ab": [
-    "Assertion",
-    "Response 2 comes from cache"
-  ],
-  "netlify-vary-syntax-invalid-country=ab|-country=en+es|ab-lines": [
-    "Assertion",
-    "Response 2 comes from cache"
-  ],
-  "netlify-vary-syntax-invalid-country=ab|-empty": [
-    "Assertion",
-    "Response 2 comes from cache"
-  ],
-  "netlify-vary-syntax-invalid-country=ab|-empty-lines": [
-    "Assertion",
-    "Response 2 comes from cache"
-  ],
-  "netlify-vary-syntax-invalid-country=ab|-header=a|b": [
-    "Assertion",
-    "Response 2 comes from cache"
-  ],
-  "netlify-vary-syntax-invalid-country=ab|-header=a|b-lines": [
-    "Assertion",
-    "Response 2 comes from cache"
-  ],
-  "netlify-vary-syntax-invalid-country=ab|-language=en+es|ab": [
-    "Assertion",
-    "Response 2 comes from cache"
-  ],
-  "netlify-vary-syntax-invalid-country=ab|-language=en+es|ab-lines": [
-    "Assertion",
-    "Response 2 comes from cache"
-  ],
-  "netlify-vary-syntax-invalid-country=ab|-query": [
-    "Assertion",
-    "Response 2 comes from cache"
-  ],
-  "netlify-vary-syntax-invalid-country=ab|-query-lines": [
-    "Assertion",
-    "Response 2 comes from cache"
-  ],
-  "netlify-vary-syntax-invalid-country=ab|-query=ab|a": [
-    "Assertion",
-    "Response 2 comes from cache"
-  ],
-  "netlify-vary-syntax-invalid-country=ab|-query=ab|a-lines": [
-    "Assertion",
-    "Response 2 comes from cache"
-  ],
   "netlify-vary-syntax-invalid-country=e n": [
     "Assertion",
     "Response 2 comes from cache"
@@ -1945,27 +1473,11 @@
     "Assertion",
     "Response 2 comes from cache"
   ],
-  "netlify-vary-syntax-invalid-country=en+es|ab-cookie=a|": [
-    "Assertion",
-    "Response 2 comes from cache"
-  ],
-  "netlify-vary-syntax-invalid-country=en+es|ab-cookie=a|-lines": [
-    "Assertion",
-    "Response 2 comes from cache"
-  ],
   "netlify-vary-syntax-invalid-country=en+es|ab-cookie=|": [
     "Assertion",
     "Response 2 comes from cache"
   ],
   "netlify-vary-syntax-invalid-country=en+es|ab-cookie=|-lines": [
-    "Assertion",
-    "Response 2 comes from cache"
-  ],
-  "netlify-vary-syntax-invalid-country=en+es|ab-cookie=|a": [
-    "Assertion",
-    "Response 2 comes from cache"
-  ],
-  "netlify-vary-syntax-invalid-country=en+es|ab-cookie=|a-lines": [
     "Assertion",
     "Response 2 comes from cache"
   ],
@@ -2001,23 +1513,7 @@
     "Assertion",
     "Response 2 comes from cache"
   ],
-  "netlify-vary-syntax-invalid-country=en+es|ab-country=+ab+|": [
-    "Assertion",
-    "Response 2 comes from cache"
-  ],
-  "netlify-vary-syntax-invalid-country=en+es|ab-country=+ab+|-lines": [
-    "Assertion",
-    "Response 2 comes from cache"
-  ],
   "netlify-vary-syntax-invalid-country=en+es|ab-country=+ab-lines": [
-    "Assertion",
-    "Response 2 comes from cache"
-  ],
-  "netlify-vary-syntax-invalid-country=en+es|ab-country=+|ab": [
-    "Assertion",
-    "Response 2 comes from cache"
-  ],
-  "netlify-vary-syntax-invalid-country=en+es|ab-country=+|ab-lines": [
     "Assertion",
     "Response 2 comes from cache"
   ],
@@ -2041,22 +1537,6 @@
     "Assertion",
     "Response 2 comes from cache"
   ],
-  "netlify-vary-syntax-invalid-country=en+es|ab-country=ab|": [
-    "Assertion",
-    "Response 2 comes from cache"
-  ],
-  "netlify-vary-syntax-invalid-country=en+es|ab-country=ab|+": [
-    "Assertion",
-    "Response 2 comes from cache"
-  ],
-  "netlify-vary-syntax-invalid-country=en+es|ab-country=ab|+-lines": [
-    "Assertion",
-    "Response 2 comes from cache"
-  ],
-  "netlify-vary-syntax-invalid-country=en+es|ab-country=ab|-lines": [
-    "Assertion",
-    "Response 2 comes from cache"
-  ],
   "netlify-vary-syntax-invalid-country=en+es|ab-country=e n": [
     "Assertion",
     "Response 2 comes from cache"
@@ -2070,14 +1550,6 @@
     "Response 2 comes from cache"
   ],
   "netlify-vary-syntax-invalid-country=en+es|ab-country=|-lines": [
-    "Assertion",
-    "Response 2 comes from cache"
-  ],
-  "netlify-vary-syntax-invalid-country=en+es|ab-country=|ab": [
-    "Assertion",
-    "Response 2 comes from cache"
-  ],
-  "netlify-vary-syntax-invalid-country=en+es|ab-country=|ab-lines": [
     "Assertion",
     "Response 2 comes from cache"
   ],
@@ -2113,27 +1585,11 @@
     "Assertion",
     "Response 2 comes from cache"
   ],
-  "netlify-vary-syntax-invalid-country=en+es|ab-header=a|": [
-    "Assertion",
-    "Response 2 comes from cache"
-  ],
-  "netlify-vary-syntax-invalid-country=en+es|ab-header=a|-lines": [
-    "Assertion",
-    "Response 2 comes from cache"
-  ],
   "netlify-vary-syntax-invalid-country=en+es|ab-header=|": [
     "Assertion",
     "Response 2 comes from cache"
   ],
   "netlify-vary-syntax-invalid-country=en+es|ab-header=|-lines": [
-    "Assertion",
-    "Response 2 comes from cache"
-  ],
-  "netlify-vary-syntax-invalid-country=en+es|ab-header=|a": [
-    "Assertion",
-    "Response 2 comes from cache"
-  ],
-  "netlify-vary-syntax-invalid-country=en+es|ab-header=|a-lines": [
     "Assertion",
     "Response 2 comes from cache"
   ],
@@ -2169,14 +1625,6 @@
     "Assertion",
     "Response 2 comes from cache"
   ],
-  "netlify-vary-syntax-invalid-country=en+es|ab-language=+ab+|": [
-    "Assertion",
-    "Response 2 comes from cache"
-  ],
-  "netlify-vary-syntax-invalid-country=en+es|ab-language=+ab+|-lines": [
-    "Assertion",
-    "Response 2 comes from cache"
-  ],
   "netlify-vary-syntax-invalid-country=en+es|ab-language=+ab-lines": [
     "Assertion",
     "Response 2 comes from cache"
@@ -2209,19 +1657,11 @@
     "Assertion",
     "Response 2 comes from cache"
   ],
-  "netlify-vary-syntax-invalid-country=en+es|ab-language=ab|": [
-    "Assertion",
-    "Response 2 comes from cache"
-  ],
   "netlify-vary-syntax-invalid-country=en+es|ab-language=ab|+": [
     "Assertion",
     "Response 2 comes from cache"
   ],
   "netlify-vary-syntax-invalid-country=en+es|ab-language=ab|+-lines": [
-    "Assertion",
-    "Response 2 comes from cache"
-  ],
-  "netlify-vary-syntax-invalid-country=en+es|ab-language=ab|-lines": [
     "Assertion",
     "Response 2 comes from cache"
   ],
@@ -2241,14 +1681,6 @@
     "Assertion",
     "Response 2 comes from cache"
   ],
-  "netlify-vary-syntax-invalid-country=en+es|ab-language=|ab": [
-    "Assertion",
-    "Response 2 comes from cache"
-  ],
-  "netlify-vary-syntax-invalid-country=en+es|ab-language=|ab-lines": [
-    "Assertion",
-    "Response 2 comes from cache"
-  ],
   "netlify-vary-syntax-invalid-country=en+es|ab-query=": [
     "Assertion",
     "Response 2 comes from cache"
@@ -2257,27 +1689,11 @@
     "Assertion",
     "Response 2 comes from cache"
   ],
-  "netlify-vary-syntax-invalid-country=en+es|ab-query=ab|": [
-    "Assertion",
-    "Response 2 comes from cache"
-  ],
-  "netlify-vary-syntax-invalid-country=en+es|ab-query=ab|-lines": [
-    "Assertion",
-    "Response 2 comes from cache"
-  ],
   "netlify-vary-syntax-invalid-country=en+es|ab-query=|": [
     "Assertion",
     "Response 2 comes from cache"
   ],
   "netlify-vary-syntax-invalid-country=en+es|ab-query=|-lines": [
-    "Assertion",
-    "Response 2 comes from cache"
-  ],
-  "netlify-vary-syntax-invalid-country=en+es|ab-query=|ab": [
-    "Assertion",
-    "Response 2 comes from cache"
-  ],
-  "netlify-vary-syntax-invalid-country=en+es|ab-query=|ab-lines": [
     "Assertion",
     "Response 2 comes from cache"
   ],
@@ -2349,66 +1765,6 @@
     "Assertion",
     "Response 2 comes from cache"
   ],
-  "netlify-vary-syntax-invalid-country=|ab": [
-    "Assertion",
-    "Response 2 comes from cache"
-  ],
-  "netlify-vary-syntax-invalid-country=|ab-cookie=a|b": [
-    "Assertion",
-    "Response 2 comes from cache"
-  ],
-  "netlify-vary-syntax-invalid-country=|ab-cookie=a|b-lines": [
-    "Assertion",
-    "Response 2 comes from cache"
-  ],
-  "netlify-vary-syntax-invalid-country=|ab-country=en+es|ab": [
-    "Assertion",
-    "Response 2 comes from cache"
-  ],
-  "netlify-vary-syntax-invalid-country=|ab-country=en+es|ab-lines": [
-    "Assertion",
-    "Response 2 comes from cache"
-  ],
-  "netlify-vary-syntax-invalid-country=|ab-empty": [
-    "Assertion",
-    "Response 2 comes from cache"
-  ],
-  "netlify-vary-syntax-invalid-country=|ab-empty-lines": [
-    "Assertion",
-    "Response 2 comes from cache"
-  ],
-  "netlify-vary-syntax-invalid-country=|ab-header=a|b": [
-    "Assertion",
-    "Response 2 comes from cache"
-  ],
-  "netlify-vary-syntax-invalid-country=|ab-header=a|b-lines": [
-    "Assertion",
-    "Response 2 comes from cache"
-  ],
-  "netlify-vary-syntax-invalid-country=|ab-language=en+es|ab": [
-    "Assertion",
-    "Response 2 comes from cache"
-  ],
-  "netlify-vary-syntax-invalid-country=|ab-language=en+es|ab-lines": [
-    "Assertion",
-    "Response 2 comes from cache"
-  ],
-  "netlify-vary-syntax-invalid-country=|ab-query": [
-    "Assertion",
-    "Response 2 comes from cache"
-  ],
-  "netlify-vary-syntax-invalid-country=|ab-query-lines": [
-    "Assertion",
-    "Response 2 comes from cache"
-  ],
-  "netlify-vary-syntax-invalid-country=|ab-query=ab|a": [
-    "Assertion",
-    "Response 2 comes from cache"
-  ],
-  "netlify-vary-syntax-invalid-country=|ab-query=ab|a-lines": [
-    "Assertion",
-    "Response 2 comes from cache"
-  ],
   "netlify-vary-syntax-invalid-empty-cookie": [
     "Assertion",
     "Response 2 comes from cache"
@@ -2433,27 +1789,11 @@
     "Assertion",
     "Response 2 comes from cache"
   ],
-  "netlify-vary-syntax-invalid-empty-cookie=a|": [
-    "Assertion",
-    "Response 2 comes from cache"
-  ],
-  "netlify-vary-syntax-invalid-empty-cookie=a|-lines": [
-    "Assertion",
-    "Response 2 comes from cache"
-  ],
   "netlify-vary-syntax-invalid-empty-cookie=|": [
     "Assertion",
     "Response 2 comes from cache"
   ],
   "netlify-vary-syntax-invalid-empty-cookie=|-lines": [
-    "Assertion",
-    "Response 2 comes from cache"
-  ],
-  "netlify-vary-syntax-invalid-empty-cookie=|a": [
-    "Assertion",
-    "Response 2 comes from cache"
-  ],
-  "netlify-vary-syntax-invalid-empty-cookie=|a-lines": [
     "Assertion",
     "Response 2 comes from cache"
   ],
@@ -2489,23 +1829,7 @@
     "Assertion",
     "Response 2 comes from cache"
   ],
-  "netlify-vary-syntax-invalid-empty-country=+ab+|": [
-    "Assertion",
-    "Response 2 comes from cache"
-  ],
-  "netlify-vary-syntax-invalid-empty-country=+ab+|-lines": [
-    "Assertion",
-    "Response 2 comes from cache"
-  ],
   "netlify-vary-syntax-invalid-empty-country=+ab-lines": [
-    "Assertion",
-    "Response 2 comes from cache"
-  ],
-  "netlify-vary-syntax-invalid-empty-country=+|ab": [
-    "Assertion",
-    "Response 2 comes from cache"
-  ],
-  "netlify-vary-syntax-invalid-empty-country=+|ab-lines": [
     "Assertion",
     "Response 2 comes from cache"
   ],
@@ -2529,22 +1853,6 @@
     "Assertion",
     "Response 2 comes from cache"
   ],
-  "netlify-vary-syntax-invalid-empty-country=ab|": [
-    "Assertion",
-    "Response 2 comes from cache"
-  ],
-  "netlify-vary-syntax-invalid-empty-country=ab|+": [
-    "Assertion",
-    "Response 2 comes from cache"
-  ],
-  "netlify-vary-syntax-invalid-empty-country=ab|+-lines": [
-    "Assertion",
-    "Response 2 comes from cache"
-  ],
-  "netlify-vary-syntax-invalid-empty-country=ab|-lines": [
-    "Assertion",
-    "Response 2 comes from cache"
-  ],
   "netlify-vary-syntax-invalid-empty-country=e n": [
     "Assertion",
     "Response 2 comes from cache"
@@ -2558,14 +1866,6 @@
     "Response 2 comes from cache"
   ],
   "netlify-vary-syntax-invalid-empty-country=|-lines": [
-    "Assertion",
-    "Response 2 comes from cache"
-  ],
-  "netlify-vary-syntax-invalid-empty-country=|ab": [
-    "Assertion",
-    "Response 2 comes from cache"
-  ],
-  "netlify-vary-syntax-invalid-empty-country=|ab-lines": [
     "Assertion",
     "Response 2 comes from cache"
   ],
@@ -2601,27 +1901,11 @@
     "Assertion",
     "Response 2 comes from cache"
   ],
-  "netlify-vary-syntax-invalid-empty-header=a|": [
-    "Assertion",
-    "Response 2 comes from cache"
-  ],
-  "netlify-vary-syntax-invalid-empty-header=a|-lines": [
-    "Assertion",
-    "Response 2 comes from cache"
-  ],
   "netlify-vary-syntax-invalid-empty-header=|": [
     "Assertion",
     "Response 2 comes from cache"
   ],
   "netlify-vary-syntax-invalid-empty-header=|-lines": [
-    "Assertion",
-    "Response 2 comes from cache"
-  ],
-  "netlify-vary-syntax-invalid-empty-header=|a": [
-    "Assertion",
-    "Response 2 comes from cache"
-  ],
-  "netlify-vary-syntax-invalid-empty-header=|a-lines": [
     "Assertion",
     "Response 2 comes from cache"
   ],
@@ -2657,14 +1941,6 @@
     "Assertion",
     "Response 2 comes from cache"
   ],
-  "netlify-vary-syntax-invalid-empty-language=+ab+|": [
-    "Assertion",
-    "Response 2 comes from cache"
-  ],
-  "netlify-vary-syntax-invalid-empty-language=+ab+|-lines": [
-    "Assertion",
-    "Response 2 comes from cache"
-  ],
   "netlify-vary-syntax-invalid-empty-language=+ab-lines": [
     "Assertion",
     "Response 2 comes from cache"
@@ -2697,19 +1973,11 @@
     "Assertion",
     "Response 2 comes from cache"
   ],
-  "netlify-vary-syntax-invalid-empty-language=ab|": [
-    "Assertion",
-    "Response 2 comes from cache"
-  ],
   "netlify-vary-syntax-invalid-empty-language=ab|+": [
     "Assertion",
     "Response 2 comes from cache"
   ],
   "netlify-vary-syntax-invalid-empty-language=ab|+-lines": [
-    "Assertion",
-    "Response 2 comes from cache"
-  ],
-  "netlify-vary-syntax-invalid-empty-language=ab|-lines": [
     "Assertion",
     "Response 2 comes from cache"
   ],
@@ -2729,14 +1997,6 @@
     "Assertion",
     "Response 2 comes from cache"
   ],
-  "netlify-vary-syntax-invalid-empty-language=|ab": [
-    "Assertion",
-    "Response 2 comes from cache"
-  ],
-  "netlify-vary-syntax-invalid-empty-language=|ab-lines": [
-    "Assertion",
-    "Response 2 comes from cache"
-  ],
   "netlify-vary-syntax-invalid-empty-query=": [
     "Assertion",
     "Response 2 comes from cache"
@@ -2745,27 +2005,11 @@
     "Assertion",
     "Response 2 comes from cache"
   ],
-  "netlify-vary-syntax-invalid-empty-query=ab|": [
-    "Assertion",
-    "Response 2 comes from cache"
-  ],
-  "netlify-vary-syntax-invalid-empty-query=ab|-lines": [
-    "Assertion",
-    "Response 2 comes from cache"
-  ],
   "netlify-vary-syntax-invalid-empty-query=|": [
     "Assertion",
     "Response 2 comes from cache"
   ],
   "netlify-vary-syntax-invalid-empty-query=|-lines": [
-    "Assertion",
-    "Response 2 comes from cache"
-  ],
-  "netlify-vary-syntax-invalid-empty-query=|ab": [
-    "Assertion",
-    "Response 2 comes from cache"
-  ],
-  "netlify-vary-syntax-invalid-empty-query=|ab-lines": [
     "Assertion",
     "Response 2 comes from cache"
   ],
@@ -3017,66 +2261,6 @@
     "Assertion",
     "Response 2 comes from cache"
   ],
-  "netlify-vary-syntax-invalid-header=a|": [
-    "Assertion",
-    "Response 2 comes from cache"
-  ],
-  "netlify-vary-syntax-invalid-header=a|-cookie=a|b": [
-    "Assertion",
-    "Response 2 comes from cache"
-  ],
-  "netlify-vary-syntax-invalid-header=a|-cookie=a|b-lines": [
-    "Assertion",
-    "Response 2 comes from cache"
-  ],
-  "netlify-vary-syntax-invalid-header=a|-country=en+es|ab": [
-    "Assertion",
-    "Response 2 comes from cache"
-  ],
-  "netlify-vary-syntax-invalid-header=a|-country=en+es|ab-lines": [
-    "Assertion",
-    "Response 2 comes from cache"
-  ],
-  "netlify-vary-syntax-invalid-header=a|-empty": [
-    "Assertion",
-    "Response 2 comes from cache"
-  ],
-  "netlify-vary-syntax-invalid-header=a|-empty-lines": [
-    "Assertion",
-    "Response 2 comes from cache"
-  ],
-  "netlify-vary-syntax-invalid-header=a|-header=a|b": [
-    "Assertion",
-    "Response 2 comes from cache"
-  ],
-  "netlify-vary-syntax-invalid-header=a|-header=a|b-lines": [
-    "Assertion",
-    "Response 2 comes from cache"
-  ],
-  "netlify-vary-syntax-invalid-header=a|-language=en+es|ab": [
-    "Assertion",
-    "Response 2 comes from cache"
-  ],
-  "netlify-vary-syntax-invalid-header=a|-language=en+es|ab-lines": [
-    "Assertion",
-    "Response 2 comes from cache"
-  ],
-  "netlify-vary-syntax-invalid-header=a|-query": [
-    "Assertion",
-    "Response 2 comes from cache"
-  ],
-  "netlify-vary-syntax-invalid-header=a|-query-lines": [
-    "Assertion",
-    "Response 2 comes from cache"
-  ],
-  "netlify-vary-syntax-invalid-header=a|-query=ab|a": [
-    "Assertion",
-    "Response 2 comes from cache"
-  ],
-  "netlify-vary-syntax-invalid-header=a|-query=ab|a-lines": [
-    "Assertion",
-    "Response 2 comes from cache"
-  ],
   "netlify-vary-syntax-invalid-header=a|b-cookie": [
     "Assertion",
     "Response 2 comes from cache"
@@ -3101,27 +2285,11 @@
     "Assertion",
     "Response 2 comes from cache"
   ],
-  "netlify-vary-syntax-invalid-header=a|b-cookie=a|": [
-    "Assertion",
-    "Response 2 comes from cache"
-  ],
-  "netlify-vary-syntax-invalid-header=a|b-cookie=a|-lines": [
-    "Assertion",
-    "Response 2 comes from cache"
-  ],
   "netlify-vary-syntax-invalid-header=a|b-cookie=|": [
     "Assertion",
     "Response 2 comes from cache"
   ],
   "netlify-vary-syntax-invalid-header=a|b-cookie=|-lines": [
-    "Assertion",
-    "Response 2 comes from cache"
-  ],
-  "netlify-vary-syntax-invalid-header=a|b-cookie=|a": [
-    "Assertion",
-    "Response 2 comes from cache"
-  ],
-  "netlify-vary-syntax-invalid-header=a|b-cookie=|a-lines": [
     "Assertion",
     "Response 2 comes from cache"
   ],
@@ -3157,23 +2325,7 @@
     "Assertion",
     "Response 2 comes from cache"
   ],
-  "netlify-vary-syntax-invalid-header=a|b-country=+ab+|": [
-    "Assertion",
-    "Response 2 comes from cache"
-  ],
-  "netlify-vary-syntax-invalid-header=a|b-country=+ab+|-lines": [
-    "Assertion",
-    "Response 2 comes from cache"
-  ],
   "netlify-vary-syntax-invalid-header=a|b-country=+ab-lines": [
-    "Assertion",
-    "Response 2 comes from cache"
-  ],
-  "netlify-vary-syntax-invalid-header=a|b-country=+|ab": [
-    "Assertion",
-    "Response 2 comes from cache"
-  ],
-  "netlify-vary-syntax-invalid-header=a|b-country=+|ab-lines": [
     "Assertion",
     "Response 2 comes from cache"
   ],
@@ -3197,22 +2349,6 @@
     "Assertion",
     "Response 2 comes from cache"
   ],
-  "netlify-vary-syntax-invalid-header=a|b-country=ab|": [
-    "Assertion",
-    "Response 2 comes from cache"
-  ],
-  "netlify-vary-syntax-invalid-header=a|b-country=ab|+": [
-    "Assertion",
-    "Response 2 comes from cache"
-  ],
-  "netlify-vary-syntax-invalid-header=a|b-country=ab|+-lines": [
-    "Assertion",
-    "Response 2 comes from cache"
-  ],
-  "netlify-vary-syntax-invalid-header=a|b-country=ab|-lines": [
-    "Assertion",
-    "Response 2 comes from cache"
-  ],
   "netlify-vary-syntax-invalid-header=a|b-country=e n": [
     "Assertion",
     "Response 2 comes from cache"
@@ -3226,14 +2362,6 @@
     "Response 2 comes from cache"
   ],
   "netlify-vary-syntax-invalid-header=a|b-country=|-lines": [
-    "Assertion",
-    "Response 2 comes from cache"
-  ],
-  "netlify-vary-syntax-invalid-header=a|b-country=|ab": [
-    "Assertion",
-    "Response 2 comes from cache"
-  ],
-  "netlify-vary-syntax-invalid-header=a|b-country=|ab-lines": [
     "Assertion",
     "Response 2 comes from cache"
   ],
@@ -3269,27 +2397,11 @@
     "Assertion",
     "Response 2 comes from cache"
   ],
-  "netlify-vary-syntax-invalid-header=a|b-header=a|": [
-    "Assertion",
-    "Response 2 comes from cache"
-  ],
-  "netlify-vary-syntax-invalid-header=a|b-header=a|-lines": [
-    "Assertion",
-    "Response 2 comes from cache"
-  ],
   "netlify-vary-syntax-invalid-header=a|b-header=|": [
     "Assertion",
     "Response 2 comes from cache"
   ],
   "netlify-vary-syntax-invalid-header=a|b-header=|-lines": [
-    "Assertion",
-    "Response 2 comes from cache"
-  ],
-  "netlify-vary-syntax-invalid-header=a|b-header=|a": [
-    "Assertion",
-    "Response 2 comes from cache"
-  ],
-  "netlify-vary-syntax-invalid-header=a|b-header=|a-lines": [
     "Assertion",
     "Response 2 comes from cache"
   ],
@@ -3325,14 +2437,6 @@
     "Assertion",
     "Response 2 comes from cache"
   ],
-  "netlify-vary-syntax-invalid-header=a|b-language=+ab+|": [
-    "Assertion",
-    "Response 2 comes from cache"
-  ],
-  "netlify-vary-syntax-invalid-header=a|b-language=+ab+|-lines": [
-    "Assertion",
-    "Response 2 comes from cache"
-  ],
   "netlify-vary-syntax-invalid-header=a|b-language=+ab-lines": [
     "Assertion",
     "Response 2 comes from cache"
@@ -3365,19 +2469,11 @@
     "Assertion",
     "Response 2 comes from cache"
   ],
-  "netlify-vary-syntax-invalid-header=a|b-language=ab|": [
-    "Assertion",
-    "Response 2 comes from cache"
-  ],
   "netlify-vary-syntax-invalid-header=a|b-language=ab|+": [
     "Assertion",
     "Response 2 comes from cache"
   ],
   "netlify-vary-syntax-invalid-header=a|b-language=ab|+-lines": [
-    "Assertion",
-    "Response 2 comes from cache"
-  ],
-  "netlify-vary-syntax-invalid-header=a|b-language=ab|-lines": [
     "Assertion",
     "Response 2 comes from cache"
   ],
@@ -3397,14 +2493,6 @@
     "Assertion",
     "Response 2 comes from cache"
   ],
-  "netlify-vary-syntax-invalid-header=a|b-language=|ab": [
-    "Assertion",
-    "Response 2 comes from cache"
-  ],
-  "netlify-vary-syntax-invalid-header=a|b-language=|ab-lines": [
-    "Assertion",
-    "Response 2 comes from cache"
-  ],
   "netlify-vary-syntax-invalid-header=a|b-query=": [
     "Assertion",
     "Response 2 comes from cache"
@@ -3413,27 +2501,11 @@
     "Assertion",
     "Response 2 comes from cache"
   ],
-  "netlify-vary-syntax-invalid-header=a|b-query=ab|": [
-    "Assertion",
-    "Response 2 comes from cache"
-  ],
-  "netlify-vary-syntax-invalid-header=a|b-query=ab|-lines": [
-    "Assertion",
-    "Response 2 comes from cache"
-  ],
   "netlify-vary-syntax-invalid-header=a|b-query=|": [
     "Assertion",
     "Response 2 comes from cache"
   ],
   "netlify-vary-syntax-invalid-header=a|b-query=|-lines": [
-    "Assertion",
-    "Response 2 comes from cache"
-  ],
-  "netlify-vary-syntax-invalid-header=a|b-query=|ab": [
-    "Assertion",
-    "Response 2 comes from cache"
-  ],
-  "netlify-vary-syntax-invalid-header=a|b-query=|ab-lines": [
     "Assertion",
     "Response 2 comes from cache"
   ],
@@ -3502,66 +2574,6 @@
     "Response 2 comes from cache"
   ],
   "netlify-vary-syntax-invalid-header=|-query=ab|a-lines": [
-    "Assertion",
-    "Response 2 comes from cache"
-  ],
-  "netlify-vary-syntax-invalid-header=|a": [
-    "Assertion",
-    "Response 2 comes from cache"
-  ],
-  "netlify-vary-syntax-invalid-header=|a-cookie=a|b": [
-    "Assertion",
-    "Response 2 comes from cache"
-  ],
-  "netlify-vary-syntax-invalid-header=|a-cookie=a|b-lines": [
-    "Assertion",
-    "Response 2 comes from cache"
-  ],
-  "netlify-vary-syntax-invalid-header=|a-country=en+es|ab": [
-    "Assertion",
-    "Response 2 comes from cache"
-  ],
-  "netlify-vary-syntax-invalid-header=|a-country=en+es|ab-lines": [
-    "Assertion",
-    "Response 2 comes from cache"
-  ],
-  "netlify-vary-syntax-invalid-header=|a-empty": [
-    "Assertion",
-    "Response 2 comes from cache"
-  ],
-  "netlify-vary-syntax-invalid-header=|a-empty-lines": [
-    "Assertion",
-    "Response 2 comes from cache"
-  ],
-  "netlify-vary-syntax-invalid-header=|a-header=a|b": [
-    "Assertion",
-    "Response 2 comes from cache"
-  ],
-  "netlify-vary-syntax-invalid-header=|a-header=a|b-lines": [
-    "Assertion",
-    "Response 2 comes from cache"
-  ],
-  "netlify-vary-syntax-invalid-header=|a-language=en+es|ab": [
-    "Assertion",
-    "Response 2 comes from cache"
-  ],
-  "netlify-vary-syntax-invalid-header=|a-language=en+es|ab-lines": [
-    "Assertion",
-    "Response 2 comes from cache"
-  ],
-  "netlify-vary-syntax-invalid-header=|a-query": [
-    "Assertion",
-    "Response 2 comes from cache"
-  ],
-  "netlify-vary-syntax-invalid-header=|a-query-lines": [
-    "Assertion",
-    "Response 2 comes from cache"
-  ],
-  "netlify-vary-syntax-invalid-header=|a-query=ab|a": [
-    "Assertion",
-    "Response 2 comes from cache"
-  ],
-  "netlify-vary-syntax-invalid-header=|a-query=ab|a-lines": [
     "Assertion",
     "Response 2 comes from cache"
   ],
@@ -3750,66 +2762,6 @@
     "Response 2 comes from cache"
   ],
   "netlify-vary-syntax-invalid-language=+ab+-query=ab|a-lines": [
-    "Assertion",
-    "Response 2 comes from cache"
-  ],
-  "netlify-vary-syntax-invalid-language=+ab+|": [
-    "Assertion",
-    "Response 2 comes from cache"
-  ],
-  "netlify-vary-syntax-invalid-language=+ab+|-cookie=a|b": [
-    "Assertion",
-    "Response 2 comes from cache"
-  ],
-  "netlify-vary-syntax-invalid-language=+ab+|-cookie=a|b-lines": [
-    "Assertion",
-    "Response 2 comes from cache"
-  ],
-  "netlify-vary-syntax-invalid-language=+ab+|-country=en+es|ab": [
-    "Assertion",
-    "Response 2 comes from cache"
-  ],
-  "netlify-vary-syntax-invalid-language=+ab+|-country=en+es|ab-lines": [
-    "Assertion",
-    "Response 2 comes from cache"
-  ],
-  "netlify-vary-syntax-invalid-language=+ab+|-empty": [
-    "Assertion",
-    "Response 2 comes from cache"
-  ],
-  "netlify-vary-syntax-invalid-language=+ab+|-empty-lines": [
-    "Assertion",
-    "Response 2 comes from cache"
-  ],
-  "netlify-vary-syntax-invalid-language=+ab+|-header=a|b": [
-    "Assertion",
-    "Response 2 comes from cache"
-  ],
-  "netlify-vary-syntax-invalid-language=+ab+|-header=a|b-lines": [
-    "Assertion",
-    "Response 2 comes from cache"
-  ],
-  "netlify-vary-syntax-invalid-language=+ab+|-language=en+es|ab": [
-    "Assertion",
-    "Response 2 comes from cache"
-  ],
-  "netlify-vary-syntax-invalid-language=+ab+|-language=en+es|ab-lines": [
-    "Assertion",
-    "Response 2 comes from cache"
-  ],
-  "netlify-vary-syntax-invalid-language=+ab+|-query": [
-    "Assertion",
-    "Response 2 comes from cache"
-  ],
-  "netlify-vary-syntax-invalid-language=+ab+|-query-lines": [
-    "Assertion",
-    "Response 2 comes from cache"
-  ],
-  "netlify-vary-syntax-invalid-language=+ab+|-query=ab|a": [
-    "Assertion",
-    "Response 2 comes from cache"
-  ],
-  "netlify-vary-syntax-invalid-language=+ab+|-query=ab|a-lines": [
     "Assertion",
     "Response 2 comes from cache"
   ],
@@ -4105,10 +3057,6 @@
     "Assertion",
     "Response 2 comes from cache"
   ],
-  "netlify-vary-syntax-invalid-language=ab|": [
-    "Assertion",
-    "Response 2 comes from cache"
-  ],
   "netlify-vary-syntax-invalid-language=ab|+": [
     "Assertion",
     "Response 2 comes from cache"
@@ -4166,62 +3114,6 @@
     "Response 2 comes from cache"
   ],
   "netlify-vary-syntax-invalid-language=ab|+-query=ab|a-lines": [
-    "Assertion",
-    "Response 2 comes from cache"
-  ],
-  "netlify-vary-syntax-invalid-language=ab|-cookie=a|b": [
-    "Assertion",
-    "Response 2 comes from cache"
-  ],
-  "netlify-vary-syntax-invalid-language=ab|-cookie=a|b-lines": [
-    "Assertion",
-    "Response 2 comes from cache"
-  ],
-  "netlify-vary-syntax-invalid-language=ab|-country=en+es|ab": [
-    "Assertion",
-    "Response 2 comes from cache"
-  ],
-  "netlify-vary-syntax-invalid-language=ab|-country=en+es|ab-lines": [
-    "Assertion",
-    "Response 2 comes from cache"
-  ],
-  "netlify-vary-syntax-invalid-language=ab|-empty": [
-    "Assertion",
-    "Response 2 comes from cache"
-  ],
-  "netlify-vary-syntax-invalid-language=ab|-empty-lines": [
-    "Assertion",
-    "Response 2 comes from cache"
-  ],
-  "netlify-vary-syntax-invalid-language=ab|-header=a|b": [
-    "Assertion",
-    "Response 2 comes from cache"
-  ],
-  "netlify-vary-syntax-invalid-language=ab|-header=a|b-lines": [
-    "Assertion",
-    "Response 2 comes from cache"
-  ],
-  "netlify-vary-syntax-invalid-language=ab|-language=en+es|ab": [
-    "Assertion",
-    "Response 2 comes from cache"
-  ],
-  "netlify-vary-syntax-invalid-language=ab|-language=en+es|ab-lines": [
-    "Assertion",
-    "Response 2 comes from cache"
-  ],
-  "netlify-vary-syntax-invalid-language=ab|-query": [
-    "Assertion",
-    "Response 2 comes from cache"
-  ],
-  "netlify-vary-syntax-invalid-language=ab|-query-lines": [
-    "Assertion",
-    "Response 2 comes from cache"
-  ],
-  "netlify-vary-syntax-invalid-language=ab|-query=ab|a": [
-    "Assertion",
-    "Response 2 comes from cache"
-  ],
-  "netlify-vary-syntax-invalid-language=ab|-query=ab|a-lines": [
     "Assertion",
     "Response 2 comes from cache"
   ],
@@ -4309,27 +3201,11 @@
     "Assertion",
     "Response 2 comes from cache"
   ],
-  "netlify-vary-syntax-invalid-language=en+es|ab-cookie=a|": [
-    "Assertion",
-    "Response 2 comes from cache"
-  ],
-  "netlify-vary-syntax-invalid-language=en+es|ab-cookie=a|-lines": [
-    "Assertion",
-    "Response 2 comes from cache"
-  ],
   "netlify-vary-syntax-invalid-language=en+es|ab-cookie=|": [
     "Assertion",
     "Response 2 comes from cache"
   ],
   "netlify-vary-syntax-invalid-language=en+es|ab-cookie=|-lines": [
-    "Assertion",
-    "Response 2 comes from cache"
-  ],
-  "netlify-vary-syntax-invalid-language=en+es|ab-cookie=|a": [
-    "Assertion",
-    "Response 2 comes from cache"
-  ],
-  "netlify-vary-syntax-invalid-language=en+es|ab-cookie=|a-lines": [
     "Assertion",
     "Response 2 comes from cache"
   ],
@@ -4365,23 +3241,7 @@
     "Assertion",
     "Response 2 comes from cache"
   ],
-  "netlify-vary-syntax-invalid-language=en+es|ab-country=+ab+|": [
-    "Assertion",
-    "Response 2 comes from cache"
-  ],
-  "netlify-vary-syntax-invalid-language=en+es|ab-country=+ab+|-lines": [
-    "Assertion",
-    "Response 2 comes from cache"
-  ],
   "netlify-vary-syntax-invalid-language=en+es|ab-country=+ab-lines": [
-    "Assertion",
-    "Response 2 comes from cache"
-  ],
-  "netlify-vary-syntax-invalid-language=en+es|ab-country=+|ab": [
-    "Assertion",
-    "Response 2 comes from cache"
-  ],
-  "netlify-vary-syntax-invalid-language=en+es|ab-country=+|ab-lines": [
     "Assertion",
     "Response 2 comes from cache"
   ],
@@ -4405,22 +3265,6 @@
     "Assertion",
     "Response 2 comes from cache"
   ],
-  "netlify-vary-syntax-invalid-language=en+es|ab-country=ab|": [
-    "Assertion",
-    "Response 2 comes from cache"
-  ],
-  "netlify-vary-syntax-invalid-language=en+es|ab-country=ab|+": [
-    "Assertion",
-    "Response 2 comes from cache"
-  ],
-  "netlify-vary-syntax-invalid-language=en+es|ab-country=ab|+-lines": [
-    "Assertion",
-    "Response 2 comes from cache"
-  ],
-  "netlify-vary-syntax-invalid-language=en+es|ab-country=ab|-lines": [
-    "Assertion",
-    "Response 2 comes from cache"
-  ],
   "netlify-vary-syntax-invalid-language=en+es|ab-country=e n": [
     "Assertion",
     "Response 2 comes from cache"
@@ -4434,14 +3278,6 @@
     "Response 2 comes from cache"
   ],
   "netlify-vary-syntax-invalid-language=en+es|ab-country=|-lines": [
-    "Assertion",
-    "Response 2 comes from cache"
-  ],
-  "netlify-vary-syntax-invalid-language=en+es|ab-country=|ab": [
-    "Assertion",
-    "Response 2 comes from cache"
-  ],
-  "netlify-vary-syntax-invalid-language=en+es|ab-country=|ab-lines": [
     "Assertion",
     "Response 2 comes from cache"
   ],
@@ -4477,27 +3313,11 @@
     "Assertion",
     "Response 2 comes from cache"
   ],
-  "netlify-vary-syntax-invalid-language=en+es|ab-header=a|": [
-    "Assertion",
-    "Response 2 comes from cache"
-  ],
-  "netlify-vary-syntax-invalid-language=en+es|ab-header=a|-lines": [
-    "Assertion",
-    "Response 2 comes from cache"
-  ],
   "netlify-vary-syntax-invalid-language=en+es|ab-header=|": [
     "Assertion",
     "Response 2 comes from cache"
   ],
   "netlify-vary-syntax-invalid-language=en+es|ab-header=|-lines": [
-    "Assertion",
-    "Response 2 comes from cache"
-  ],
-  "netlify-vary-syntax-invalid-language=en+es|ab-header=|a": [
-    "Assertion",
-    "Response 2 comes from cache"
-  ],
-  "netlify-vary-syntax-invalid-language=en+es|ab-header=|a-lines": [
     "Assertion",
     "Response 2 comes from cache"
   ],
@@ -4533,14 +3353,6 @@
     "Assertion",
     "Response 2 comes from cache"
   ],
-  "netlify-vary-syntax-invalid-language=en+es|ab-language=+ab+|": [
-    "Assertion",
-    "Response 2 comes from cache"
-  ],
-  "netlify-vary-syntax-invalid-language=en+es|ab-language=+ab+|-lines": [
-    "Assertion",
-    "Response 2 comes from cache"
-  ],
   "netlify-vary-syntax-invalid-language=en+es|ab-language=+ab-lines": [
     "Assertion",
     "Response 2 comes from cache"
@@ -4573,19 +3385,11 @@
     "Assertion",
     "Response 2 comes from cache"
   ],
-  "netlify-vary-syntax-invalid-language=en+es|ab-language=ab|": [
-    "Assertion",
-    "Response 2 comes from cache"
-  ],
   "netlify-vary-syntax-invalid-language=en+es|ab-language=ab|+": [
     "Assertion",
     "Response 2 comes from cache"
   ],
   "netlify-vary-syntax-invalid-language=en+es|ab-language=ab|+-lines": [
-    "Assertion",
-    "Response 2 comes from cache"
-  ],
-  "netlify-vary-syntax-invalid-language=en+es|ab-language=ab|-lines": [
     "Assertion",
     "Response 2 comes from cache"
   ],
@@ -4605,14 +3409,6 @@
     "Assertion",
     "Response 2 comes from cache"
   ],
-  "netlify-vary-syntax-invalid-language=en+es|ab-language=|ab": [
-    "Assertion",
-    "Response 2 comes from cache"
-  ],
-  "netlify-vary-syntax-invalid-language=en+es|ab-language=|ab-lines": [
-    "Assertion",
-    "Response 2 comes from cache"
-  ],
   "netlify-vary-syntax-invalid-language=en+es|ab-query=": [
     "Assertion",
     "Response 2 comes from cache"
@@ -4621,27 +3417,11 @@
     "Assertion",
     "Response 2 comes from cache"
   ],
-  "netlify-vary-syntax-invalid-language=en+es|ab-query=ab|": [
-    "Assertion",
-    "Response 2 comes from cache"
-  ],
-  "netlify-vary-syntax-invalid-language=en+es|ab-query=ab|-lines": [
-    "Assertion",
-    "Response 2 comes from cache"
-  ],
   "netlify-vary-syntax-invalid-language=en+es|ab-query=|": [
     "Assertion",
     "Response 2 comes from cache"
   ],
   "netlify-vary-syntax-invalid-language=en+es|ab-query=|-lines": [
-    "Assertion",
-    "Response 2 comes from cache"
-  ],
-  "netlify-vary-syntax-invalid-language=en+es|ab-query=|ab": [
-    "Assertion",
-    "Response 2 comes from cache"
-  ],
-  "netlify-vary-syntax-invalid-language=en+es|ab-query=|ab-lines": [
     "Assertion",
     "Response 2 comes from cache"
   ],
@@ -4713,66 +3493,6 @@
     "Assertion",
     "Response 2 comes from cache"
   ],
-  "netlify-vary-syntax-invalid-language=|ab": [
-    "Assertion",
-    "Response 2 comes from cache"
-  ],
-  "netlify-vary-syntax-invalid-language=|ab-cookie=a|b": [
-    "Assertion",
-    "Response 2 comes from cache"
-  ],
-  "netlify-vary-syntax-invalid-language=|ab-cookie=a|b-lines": [
-    "Assertion",
-    "Response 2 comes from cache"
-  ],
-  "netlify-vary-syntax-invalid-language=|ab-country=en+es|ab": [
-    "Assertion",
-    "Response 2 comes from cache"
-  ],
-  "netlify-vary-syntax-invalid-language=|ab-country=en+es|ab-lines": [
-    "Assertion",
-    "Response 2 comes from cache"
-  ],
-  "netlify-vary-syntax-invalid-language=|ab-empty": [
-    "Assertion",
-    "Response 2 comes from cache"
-  ],
-  "netlify-vary-syntax-invalid-language=|ab-empty-lines": [
-    "Assertion",
-    "Response 2 comes from cache"
-  ],
-  "netlify-vary-syntax-invalid-language=|ab-header=a|b": [
-    "Assertion",
-    "Response 2 comes from cache"
-  ],
-  "netlify-vary-syntax-invalid-language=|ab-header=a|b-lines": [
-    "Assertion",
-    "Response 2 comes from cache"
-  ],
-  "netlify-vary-syntax-invalid-language=|ab-language=en+es|ab": [
-    "Assertion",
-    "Response 2 comes from cache"
-  ],
-  "netlify-vary-syntax-invalid-language=|ab-language=en+es|ab-lines": [
-    "Assertion",
-    "Response 2 comes from cache"
-  ],
-  "netlify-vary-syntax-invalid-language=|ab-query": [
-    "Assertion",
-    "Response 2 comes from cache"
-  ],
-  "netlify-vary-syntax-invalid-language=|ab-query-lines": [
-    "Assertion",
-    "Response 2 comes from cache"
-  ],
-  "netlify-vary-syntax-invalid-language=|ab-query=ab|a": [
-    "Assertion",
-    "Response 2 comes from cache"
-  ],
-  "netlify-vary-syntax-invalid-language=|ab-query=ab|a-lines": [
-    "Assertion",
-    "Response 2 comes from cache"
-  ],
   "netlify-vary-syntax-invalid-query-cookie": [
     "Assertion",
     "Response 2 comes from cache"
@@ -4797,27 +3517,11 @@
     "Assertion",
     "Response 2 comes from cache"
   ],
-  "netlify-vary-syntax-invalid-query-cookie=a|": [
-    "Assertion",
-    "Response 2 comes from cache"
-  ],
-  "netlify-vary-syntax-invalid-query-cookie=a|-lines": [
-    "Assertion",
-    "Response 2 comes from cache"
-  ],
   "netlify-vary-syntax-invalid-query-cookie=|": [
     "Assertion",
     "Response 2 comes from cache"
   ],
   "netlify-vary-syntax-invalid-query-cookie=|-lines": [
-    "Assertion",
-    "Response 2 comes from cache"
-  ],
-  "netlify-vary-syntax-invalid-query-cookie=|a": [
-    "Assertion",
-    "Response 2 comes from cache"
-  ],
-  "netlify-vary-syntax-invalid-query-cookie=|a-lines": [
     "Assertion",
     "Response 2 comes from cache"
   ],
@@ -4853,23 +3557,7 @@
     "Assertion",
     "Response 2 comes from cache"
   ],
-  "netlify-vary-syntax-invalid-query-country=+ab+|": [
-    "Assertion",
-    "Response 2 comes from cache"
-  ],
-  "netlify-vary-syntax-invalid-query-country=+ab+|-lines": [
-    "Assertion",
-    "Response 2 comes from cache"
-  ],
   "netlify-vary-syntax-invalid-query-country=+ab-lines": [
-    "Assertion",
-    "Response 2 comes from cache"
-  ],
-  "netlify-vary-syntax-invalid-query-country=+|ab": [
-    "Assertion",
-    "Response 2 comes from cache"
-  ],
-  "netlify-vary-syntax-invalid-query-country=+|ab-lines": [
     "Assertion",
     "Response 2 comes from cache"
   ],
@@ -4893,22 +3581,6 @@
     "Assertion",
     "Response 2 comes from cache"
   ],
-  "netlify-vary-syntax-invalid-query-country=ab|": [
-    "Assertion",
-    "Response 2 comes from cache"
-  ],
-  "netlify-vary-syntax-invalid-query-country=ab|+": [
-    "Assertion",
-    "Response 2 comes from cache"
-  ],
-  "netlify-vary-syntax-invalid-query-country=ab|+-lines": [
-    "Assertion",
-    "Response 2 comes from cache"
-  ],
-  "netlify-vary-syntax-invalid-query-country=ab|-lines": [
-    "Assertion",
-    "Response 2 comes from cache"
-  ],
   "netlify-vary-syntax-invalid-query-country=e n": [
     "Assertion",
     "Response 2 comes from cache"
@@ -4922,14 +3594,6 @@
     "Response 2 comes from cache"
   ],
   "netlify-vary-syntax-invalid-query-country=|-lines": [
-    "Assertion",
-    "Response 2 comes from cache"
-  ],
-  "netlify-vary-syntax-invalid-query-country=|ab": [
-    "Assertion",
-    "Response 2 comes from cache"
-  ],
-  "netlify-vary-syntax-invalid-query-country=|ab-lines": [
     "Assertion",
     "Response 2 comes from cache"
   ],
@@ -4965,27 +3629,11 @@
     "Assertion",
     "Response 2 comes from cache"
   ],
-  "netlify-vary-syntax-invalid-query-header=a|": [
-    "Assertion",
-    "Response 2 comes from cache"
-  ],
-  "netlify-vary-syntax-invalid-query-header=a|-lines": [
-    "Assertion",
-    "Response 2 comes from cache"
-  ],
   "netlify-vary-syntax-invalid-query-header=|": [
     "Assertion",
     "Response 2 comes from cache"
   ],
   "netlify-vary-syntax-invalid-query-header=|-lines": [
-    "Assertion",
-    "Response 2 comes from cache"
-  ],
-  "netlify-vary-syntax-invalid-query-header=|a": [
-    "Assertion",
-    "Response 2 comes from cache"
-  ],
-  "netlify-vary-syntax-invalid-query-header=|a-lines": [
     "Assertion",
     "Response 2 comes from cache"
   ],
@@ -5021,14 +3669,6 @@
     "Assertion",
     "Response 2 comes from cache"
   ],
-  "netlify-vary-syntax-invalid-query-language=+ab+|": [
-    "Assertion",
-    "Response 2 comes from cache"
-  ],
-  "netlify-vary-syntax-invalid-query-language=+ab+|-lines": [
-    "Assertion",
-    "Response 2 comes from cache"
-  ],
   "netlify-vary-syntax-invalid-query-language=+ab-lines": [
     "Assertion",
     "Response 2 comes from cache"
@@ -5061,19 +3701,11 @@
     "Assertion",
     "Response 2 comes from cache"
   ],
-  "netlify-vary-syntax-invalid-query-language=ab|": [
-    "Assertion",
-    "Response 2 comes from cache"
-  ],
   "netlify-vary-syntax-invalid-query-language=ab|+": [
     "Assertion",
     "Response 2 comes from cache"
   ],
   "netlify-vary-syntax-invalid-query-language=ab|+-lines": [
-    "Assertion",
-    "Response 2 comes from cache"
-  ],
-  "netlify-vary-syntax-invalid-query-language=ab|-lines": [
     "Assertion",
     "Response 2 comes from cache"
   ],
@@ -5093,14 +3725,6 @@
     "Assertion",
     "Response 2 comes from cache"
   ],
-  "netlify-vary-syntax-invalid-query-language=|ab": [
-    "Assertion",
-    "Response 2 comes from cache"
-  ],
-  "netlify-vary-syntax-invalid-query-language=|ab-lines": [
-    "Assertion",
-    "Response 2 comes from cache"
-  ],
   "netlify-vary-syntax-invalid-query-query=": [
     "Assertion",
     "Response 2 comes from cache"
@@ -5109,27 +3733,11 @@
     "Assertion",
     "Response 2 comes from cache"
   ],
-  "netlify-vary-syntax-invalid-query-query=ab|": [
-    "Assertion",
-    "Response 2 comes from cache"
-  ],
-  "netlify-vary-syntax-invalid-query-query=ab|-lines": [
-    "Assertion",
-    "Response 2 comes from cache"
-  ],
   "netlify-vary-syntax-invalid-query-query=|": [
     "Assertion",
     "Response 2 comes from cache"
   ],
   "netlify-vary-syntax-invalid-query-query=|-lines": [
-    "Assertion",
-    "Response 2 comes from cache"
-  ],
-  "netlify-vary-syntax-invalid-query-query=|ab": [
-    "Assertion",
-    "Response 2 comes from cache"
-  ],
-  "netlify-vary-syntax-invalid-query-query=|ab-lines": [
     "Assertion",
     "Response 2 comes from cache"
   ],
@@ -5201,66 +3809,6 @@
     "Assertion",
     "Response 2 comes from cache"
   ],
-  "netlify-vary-syntax-invalid-query=ab|": [
-    "Assertion",
-    "Response 2 comes from cache"
-  ],
-  "netlify-vary-syntax-invalid-query=ab|-cookie=a|b": [
-    "Assertion",
-    "Response 2 comes from cache"
-  ],
-  "netlify-vary-syntax-invalid-query=ab|-cookie=a|b-lines": [
-    "Assertion",
-    "Response 2 comes from cache"
-  ],
-  "netlify-vary-syntax-invalid-query=ab|-country=en+es|ab": [
-    "Assertion",
-    "Response 2 comes from cache"
-  ],
-  "netlify-vary-syntax-invalid-query=ab|-country=en+es|ab-lines": [
-    "Assertion",
-    "Response 2 comes from cache"
-  ],
-  "netlify-vary-syntax-invalid-query=ab|-empty": [
-    "Assertion",
-    "Response 2 comes from cache"
-  ],
-  "netlify-vary-syntax-invalid-query=ab|-empty-lines": [
-    "Assertion",
-    "Response 2 comes from cache"
-  ],
-  "netlify-vary-syntax-invalid-query=ab|-header=a|b": [
-    "Assertion",
-    "Response 2 comes from cache"
-  ],
-  "netlify-vary-syntax-invalid-query=ab|-header=a|b-lines": [
-    "Assertion",
-    "Response 2 comes from cache"
-  ],
-  "netlify-vary-syntax-invalid-query=ab|-language=en+es|ab": [
-    "Assertion",
-    "Response 2 comes from cache"
-  ],
-  "netlify-vary-syntax-invalid-query=ab|-language=en+es|ab-lines": [
-    "Assertion",
-    "Response 2 comes from cache"
-  ],
-  "netlify-vary-syntax-invalid-query=ab|-query": [
-    "Assertion",
-    "Response 2 comes from cache"
-  ],
-  "netlify-vary-syntax-invalid-query=ab|-query-lines": [
-    "Assertion",
-    "Response 2 comes from cache"
-  ],
-  "netlify-vary-syntax-invalid-query=ab|-query=ab|a": [
-    "Assertion",
-    "Response 2 comes from cache"
-  ],
-  "netlify-vary-syntax-invalid-query=ab|-query=ab|a-lines": [
-    "Assertion",
-    "Response 2 comes from cache"
-  ],
   "netlify-vary-syntax-invalid-query=ab|a-cookie": [
     "Assertion",
     "Response 2 comes from cache"
@@ -5285,27 +3833,11 @@
     "Assertion",
     "Response 2 comes from cache"
   ],
-  "netlify-vary-syntax-invalid-query=ab|a-cookie=a|": [
-    "Assertion",
-    "Response 2 comes from cache"
-  ],
-  "netlify-vary-syntax-invalid-query=ab|a-cookie=a|-lines": [
-    "Assertion",
-    "Response 2 comes from cache"
-  ],
   "netlify-vary-syntax-invalid-query=ab|a-cookie=|": [
     "Assertion",
     "Response 2 comes from cache"
   ],
   "netlify-vary-syntax-invalid-query=ab|a-cookie=|-lines": [
-    "Assertion",
-    "Response 2 comes from cache"
-  ],
-  "netlify-vary-syntax-invalid-query=ab|a-cookie=|a": [
-    "Assertion",
-    "Response 2 comes from cache"
-  ],
-  "netlify-vary-syntax-invalid-query=ab|a-cookie=|a-lines": [
     "Assertion",
     "Response 2 comes from cache"
   ],
@@ -5341,23 +3873,7 @@
     "Assertion",
     "Response 2 comes from cache"
   ],
-  "netlify-vary-syntax-invalid-query=ab|a-country=+ab+|": [
-    "Assertion",
-    "Response 2 comes from cache"
-  ],
-  "netlify-vary-syntax-invalid-query=ab|a-country=+ab+|-lines": [
-    "Assertion",
-    "Response 2 comes from cache"
-  ],
   "netlify-vary-syntax-invalid-query=ab|a-country=+ab-lines": [
-    "Assertion",
-    "Response 2 comes from cache"
-  ],
-  "netlify-vary-syntax-invalid-query=ab|a-country=+|ab": [
-    "Assertion",
-    "Response 2 comes from cache"
-  ],
-  "netlify-vary-syntax-invalid-query=ab|a-country=+|ab-lines": [
     "Assertion",
     "Response 2 comes from cache"
   ],
@@ -5381,22 +3897,6 @@
     "Assertion",
     "Response 2 comes from cache"
   ],
-  "netlify-vary-syntax-invalid-query=ab|a-country=ab|": [
-    "Assertion",
-    "Response 2 comes from cache"
-  ],
-  "netlify-vary-syntax-invalid-query=ab|a-country=ab|+": [
-    "Assertion",
-    "Response 2 comes from cache"
-  ],
-  "netlify-vary-syntax-invalid-query=ab|a-country=ab|+-lines": [
-    "Assertion",
-    "Response 2 comes from cache"
-  ],
-  "netlify-vary-syntax-invalid-query=ab|a-country=ab|-lines": [
-    "Assertion",
-    "Response 2 comes from cache"
-  ],
   "netlify-vary-syntax-invalid-query=ab|a-country=e n": [
     "Assertion",
     "Response 2 comes from cache"
@@ -5410,14 +3910,6 @@
     "Response 2 comes from cache"
   ],
   "netlify-vary-syntax-invalid-query=ab|a-country=|-lines": [
-    "Assertion",
-    "Response 2 comes from cache"
-  ],
-  "netlify-vary-syntax-invalid-query=ab|a-country=|ab": [
-    "Assertion",
-    "Response 2 comes from cache"
-  ],
-  "netlify-vary-syntax-invalid-query=ab|a-country=|ab-lines": [
     "Assertion",
     "Response 2 comes from cache"
   ],
@@ -5453,27 +3945,11 @@
     "Assertion",
     "Response 2 comes from cache"
   ],
-  "netlify-vary-syntax-invalid-query=ab|a-header=a|": [
-    "Assertion",
-    "Response 2 comes from cache"
-  ],
-  "netlify-vary-syntax-invalid-query=ab|a-header=a|-lines": [
-    "Assertion",
-    "Response 2 comes from cache"
-  ],
   "netlify-vary-syntax-invalid-query=ab|a-header=|": [
     "Assertion",
     "Response 2 comes from cache"
   ],
   "netlify-vary-syntax-invalid-query=ab|a-header=|-lines": [
-    "Assertion",
-    "Response 2 comes from cache"
-  ],
-  "netlify-vary-syntax-invalid-query=ab|a-header=|a": [
-    "Assertion",
-    "Response 2 comes from cache"
-  ],
-  "netlify-vary-syntax-invalid-query=ab|a-header=|a-lines": [
     "Assertion",
     "Response 2 comes from cache"
   ],
@@ -5509,14 +3985,6 @@
     "Assertion",
     "Response 2 comes from cache"
   ],
-  "netlify-vary-syntax-invalid-query=ab|a-language=+ab+|": [
-    "Assertion",
-    "Response 2 comes from cache"
-  ],
-  "netlify-vary-syntax-invalid-query=ab|a-language=+ab+|-lines": [
-    "Assertion",
-    "Response 2 comes from cache"
-  ],
   "netlify-vary-syntax-invalid-query=ab|a-language=+ab-lines": [
     "Assertion",
     "Response 2 comes from cache"
@@ -5549,19 +4017,11 @@
     "Assertion",
     "Response 2 comes from cache"
   ],
-  "netlify-vary-syntax-invalid-query=ab|a-language=ab|": [
-    "Assertion",
-    "Response 2 comes from cache"
-  ],
   "netlify-vary-syntax-invalid-query=ab|a-language=ab|+": [
     "Assertion",
     "Response 2 comes from cache"
   ],
   "netlify-vary-syntax-invalid-query=ab|a-language=ab|+-lines": [
-    "Assertion",
-    "Response 2 comes from cache"
-  ],
-  "netlify-vary-syntax-invalid-query=ab|a-language=ab|-lines": [
     "Assertion",
     "Response 2 comes from cache"
   ],
@@ -5581,14 +4041,6 @@
     "Assertion",
     "Response 2 comes from cache"
   ],
-  "netlify-vary-syntax-invalid-query=ab|a-language=|ab": [
-    "Assertion",
-    "Response 2 comes from cache"
-  ],
-  "netlify-vary-syntax-invalid-query=ab|a-language=|ab-lines": [
-    "Assertion",
-    "Response 2 comes from cache"
-  ],
   "netlify-vary-syntax-invalid-query=ab|a-query=": [
     "Assertion",
     "Response 2 comes from cache"
@@ -5597,27 +4049,11 @@
     "Assertion",
     "Response 2 comes from cache"
   ],
-  "netlify-vary-syntax-invalid-query=ab|a-query=ab|": [
-    "Assertion",
-    "Response 2 comes from cache"
-  ],
-  "netlify-vary-syntax-invalid-query=ab|a-query=ab|-lines": [
-    "Assertion",
-    "Response 2 comes from cache"
-  ],
   "netlify-vary-syntax-invalid-query=ab|a-query=|": [
     "Assertion",
     "Response 2 comes from cache"
   ],
   "netlify-vary-syntax-invalid-query=ab|a-query=|-lines": [
-    "Assertion",
-    "Response 2 comes from cache"
-  ],
-  "netlify-vary-syntax-invalid-query=ab|a-query=|ab": [
-    "Assertion",
-    "Response 2 comes from cache"
-  ],
-  "netlify-vary-syntax-invalid-query=ab|a-query=|ab-lines": [
     "Assertion",
     "Response 2 comes from cache"
   ],
@@ -5686,66 +4122,6 @@
     "Response 2 comes from cache"
   ],
   "netlify-vary-syntax-invalid-query=|-query=ab|a-lines": [
-    "Assertion",
-    "Response 2 comes from cache"
-  ],
-  "netlify-vary-syntax-invalid-query=|ab": [
-    "Assertion",
-    "Response 2 comes from cache"
-  ],
-  "netlify-vary-syntax-invalid-query=|ab-cookie=a|b": [
-    "Assertion",
-    "Response 2 comes from cache"
-  ],
-  "netlify-vary-syntax-invalid-query=|ab-cookie=a|b-lines": [
-    "Assertion",
-    "Response 2 comes from cache"
-  ],
-  "netlify-vary-syntax-invalid-query=|ab-country=en+es|ab": [
-    "Assertion",
-    "Response 2 comes from cache"
-  ],
-  "netlify-vary-syntax-invalid-query=|ab-country=en+es|ab-lines": [
-    "Assertion",
-    "Response 2 comes from cache"
-  ],
-  "netlify-vary-syntax-invalid-query=|ab-empty": [
-    "Assertion",
-    "Response 2 comes from cache"
-  ],
-  "netlify-vary-syntax-invalid-query=|ab-empty-lines": [
-    "Assertion",
-    "Response 2 comes from cache"
-  ],
-  "netlify-vary-syntax-invalid-query=|ab-header=a|b": [
-    "Assertion",
-    "Response 2 comes from cache"
-  ],
-  "netlify-vary-syntax-invalid-query=|ab-header=a|b-lines": [
-    "Assertion",
-    "Response 2 comes from cache"
-  ],
-  "netlify-vary-syntax-invalid-query=|ab-language=en+es|ab": [
-    "Assertion",
-    "Response 2 comes from cache"
-  ],
-  "netlify-vary-syntax-invalid-query=|ab-language=en+es|ab-lines": [
-    "Assertion",
-    "Response 2 comes from cache"
-  ],
-  "netlify-vary-syntax-invalid-query=|ab-query": [
-    "Assertion",
-    "Response 2 comes from cache"
-  ],
-  "netlify-vary-syntax-invalid-query=|ab-query-lines": [
-    "Assertion",
-    "Response 2 comes from cache"
-  ],
-  "netlify-vary-syntax-invalid-query=|ab-query=ab|a": [
-    "Assertion",
-    "Response 2 comes from cache"
-  ],
-  "netlify-vary-syntax-invalid-query=|ab-query=ab|a-lines": [
     "Assertion",
     "Response 2 comes from cache"
   ],
@@ -5832,11 +4208,11 @@
   "other-cookie": true,
   "other-date-update": [
     "Assertion",
-    "Response 2 header Date is \"Mon, 14 Apr 2025 11:12:51 GMT\", not \"Mon, 14 Apr 2025 11:12:48 GMT\""
+    "Response 2 header Date is \"Mon, 14 Apr 2025 15:07:34 GMT\", not \"Mon, 14 Apr 2025 15:07:31 GMT\""
   ],
   "other-date-update-expires": [
     "Assertion",
-    "Response 2 header Date is \"Mon, 14 Apr 2025 11:12:51 GMT\", not \"Mon, 14 Apr 2025 11:12:48 GMT\""
+    "Response 2 header Date is \"Mon, 14 Apr 2025 15:07:34 GMT\", not \"Mon, 14 Apr 2025 15:07:31 GMT\""
   ],
   "other-date-update-expires-update": true,
   "other-fresh-content-disposition-attachment": true,
@@ -5886,39 +4262,39 @@
   "stale-503": true,
   "stale-close": [
     "FetchError",
-    "request to http://localhost:8004/test/2b8f462c-6d51-4a72-900f-e2160cb802c8 failed, reason: socket hang up"
+    "request to http://localhost:8004/test/affea97f-6cc8-4e2e-8aad-e59a3c4f069f failed, reason: socket hang up"
   ],
   "stale-close-must-revalidate": [
     "FetchError",
-    "request to http://localhost:8004/test/24e788e4-dfcc-4ff5-b2ee-e6b36481115f failed, reason: socket hang up"
+    "request to http://localhost:8004/test/4c380f15-73ec-4aad-8ddb-1577ded8902c failed, reason: socket hang up"
   ],
   "stale-close-no-cache": [
     "FetchError",
-    "request to http://localhost:8004/test/ecc1849d-beab-475d-8eee-1d941a0c1227 failed, reason: socket hang up"
+    "request to http://localhost:8004/test/afd9645c-dea0-429d-be46-32680a77e171 failed, reason: socket hang up"
   ],
   "stale-close-proxy-revalidate": [
     "FetchError",
-    "request to http://localhost:8004/test/953823b9-1d89-4beb-9afc-9ef4dc329742 failed, reason: socket hang up"
+    "request to http://localhost:8004/test/ae9f1227-8e91-4a9c-91de-6f5b67ef67db failed, reason: socket hang up"
   ],
   "stale-close-s-maxage=2": [
     "FetchError",
-    "request to http://localhost:8004/test/c9e9a94b-5fce-4939-a028-b0f5b13f387a failed, reason: socket hang up"
+    "request to http://localhost:8004/test/ee28df2a-78fe-44a6-bde3-672101fd4b4b failed, reason: socket hang up"
   ],
   "stale-sie-503": [
     "FetchError",
-    "request to http://localhost:8004/test/a293e7c1-8c96-4f1c-a952-cda7920e1910 failed, reason: socket hang up"
+    "request to http://localhost:8004/test/a2ff0102-8a4d-423b-a45f-3b75df3541eb failed, reason: socket hang up"
   ],
   "stale-sie-close": [
     "FetchError",
-    "request to http://localhost:8004/test/99e57f38-3960-4377-a442-5eb5ab5ccf31 failed, reason: socket hang up"
+    "request to http://localhost:8004/test/3b0a9711-a5ec-4397-a329-fafdce5be6a7 failed, reason: socket hang up"
   ],
   "stale-warning-become": [
     "FetchError",
-    "request to http://localhost:8004/test/4d538fc8-4209-4b4e-8ec8-16993974a864 failed, reason: socket hang up"
+    "request to http://localhost:8004/test/036763a4-8e27-4083-afdf-60f200ca856e failed, reason: socket hang up"
   ],
   "stale-warning-stored": [
     "FetchError",
-    "request to http://localhost:8004/test/8f361aba-6bde-42e0-926a-02633d4bccdf failed, reason: socket hang up"
+    "request to http://localhost:8004/test/90bb4f65-2a41-4262-8b7b-a6a8d53a826f failed, reason: socket hang up"
   ],
   "stale-while-revalidate": [
     "Assertion",
