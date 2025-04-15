@@ -83,10 +83,7 @@
   ],
   "ccreq-no-store": true,
   "ccreq-oic": true,
-  "cdn-cc-invalid-sh-type-unknown": [
-    "Assertion",
-    "Response 2 comes from cache"
-  ],
+  "cdn-cc-invalid-sh-type-unknown": true,
   "cdn-cc-invalid-sh-type-wrong": true,
   "cdn-date-update-exceed": true,
   "cdn-expires-update-exceed": true,
@@ -155,7 +152,7 @@
   ],
   "conditional-etag-weak-respond-lowercase": [
     "Assertion",
-    "Response 2 status is 200, not 304"
+    "Response 2 does not come from cache"
   ],
   "conditional-etag-weak-respond-omit-slash": [
     "Assertion",
@@ -164,8 +161,8 @@
   "conditional-lm-fresh": true,
   "conditional-lm-fresh-earlier": true,
   "conditional-lm-fresh-no-lm": [
-    "Assertion",
-    "Response 2 status is 200, not 304"
+    "Setup",
+    "Response 2 does not come from cache"
   ],
   "conditional-lm-fresh-rfc850": true,
   "conditional-lm-stale": true,
@@ -411,10 +408,7 @@
     "Assertion",
     "Response 2 does not come from cache"
   ],
-  "invalidate-DELETE": [
-    "Assertion",
-    "Response 3 comes from cache"
-  ],
+  "invalidate-DELETE": true,
   "invalidate-DELETE-cl": [
     "Assertion",
     "Response 3 comes from cache"
@@ -586,14 +580,8 @@
     "Assertion",
     "Response 2 comes from cache"
   ],
-  "netlify-vary-syntax-invalid-cookie=a|b-unknown-directive": [
-    "Assertion",
-    "Response 2 comes from cache"
-  ],
-  "netlify-vary-syntax-invalid-cookie=a|b-unknown-directive-lines": [
-    "Assertion",
-    "Response 2 comes from cache"
-  ],
+  "netlify-vary-syntax-invalid-cookie=a|b-unknown-directive": true,
+  "netlify-vary-syntax-invalid-cookie=a|b-unknown-directive-lines": true,
   "netlify-vary-syntax-invalid-cookie=|": true,
   "netlify-vary-syntax-invalid-cookie=|-cookie=a|b": true,
   "netlify-vary-syntax-invalid-cookie=|-cookie=a|b-lines": true,
@@ -803,14 +791,8 @@
     "Assertion",
     "Response 2 comes from cache"
   ],
-  "netlify-vary-syntax-invalid-country=en+es|ab-unknown-directive": [
-    "Assertion",
-    "Response 2 comes from cache"
-  ],
-  "netlify-vary-syntax-invalid-country=en+es|ab-unknown-directive-lines": [
-    "Assertion",
-    "Response 2 comes from cache"
-  ],
+  "netlify-vary-syntax-invalid-country=en+es|ab-unknown-directive": true,
+  "netlify-vary-syntax-invalid-country=en+es|ab-unknown-directive-lines": true,
   "netlify-vary-syntax-invalid-country=|": true,
   "netlify-vary-syntax-invalid-country=|-cookie=a|b": true,
   "netlify-vary-syntax-invalid-country=|-cookie=a|b-lines": true,
@@ -900,14 +882,8 @@
     "Assertion",
     "Response 2 comes from cache"
   ],
-  "netlify-vary-syntax-invalid-empty-unknown-directive": [
-    "Assertion",
-    "Response 2 comes from cache"
-  ],
-  "netlify-vary-syntax-invalid-empty-unknown-directive-lines": [
-    "Assertion",
-    "Response 2 comes from cache"
-  ],
+  "netlify-vary-syntax-invalid-empty-unknown-directive": true,
+  "netlify-vary-syntax-invalid-empty-unknown-directive-lines": true,
   "netlify-vary-syntax-invalid-header": true,
   "netlify-vary-syntax-invalid-header-cookie=a|b": true,
   "netlify-vary-syntax-invalid-header-cookie=a|b-lines": true,
@@ -1042,14 +1018,8 @@
     "Assertion",
     "Response 2 comes from cache"
   ],
-  "netlify-vary-syntax-invalid-header=a|b-unknown-directive": [
-    "Assertion",
-    "Response 2 comes from cache"
-  ],
-  "netlify-vary-syntax-invalid-header=a|b-unknown-directive-lines": [
-    "Assertion",
-    "Response 2 comes from cache"
-  ],
+  "netlify-vary-syntax-invalid-header=a|b-unknown-directive": true,
+  "netlify-vary-syntax-invalid-header=a|b-unknown-directive-lines": true,
   "netlify-vary-syntax-invalid-header=|": true,
   "netlify-vary-syntax-invalid-header=|-cookie=a|b": true,
   "netlify-vary-syntax-invalid-header=|-cookie=a|b-lines": true,
@@ -1289,14 +1259,8 @@
     "Assertion",
     "Response 2 comes from cache"
   ],
-  "netlify-vary-syntax-invalid-language=en+es|ab-unknown-directive": [
-    "Assertion",
-    "Response 2 comes from cache"
-  ],
-  "netlify-vary-syntax-invalid-language=en+es|ab-unknown-directive-lines": [
-    "Assertion",
-    "Response 2 comes from cache"
-  ],
+  "netlify-vary-syntax-invalid-language=en+es|ab-unknown-directive": true,
+  "netlify-vary-syntax-invalid-language=en+es|ab-unknown-directive-lines": true,
   "netlify-vary-syntax-invalid-language=|": true,
   "netlify-vary-syntax-invalid-language=|-cookie=a|b": true,
   "netlify-vary-syntax-invalid-language=|-cookie=a|b-lines": true,
@@ -1386,14 +1350,8 @@
     "Assertion",
     "Response 2 comes from cache"
   ],
-  "netlify-vary-syntax-invalid-query-unknown-directive": [
-    "Assertion",
-    "Response 2 comes from cache"
-  ],
-  "netlify-vary-syntax-invalid-query-unknown-directive-lines": [
-    "Assertion",
-    "Response 2 comes from cache"
-  ],
+  "netlify-vary-syntax-invalid-query-unknown-directive": true,
+  "netlify-vary-syntax-invalid-query-unknown-directive-lines": true,
   "netlify-vary-syntax-invalid-query=": [
     "Assertion",
     "Response 2 comes from cache"
@@ -1528,14 +1486,8 @@
     "Assertion",
     "Response 2 comes from cache"
   ],
-  "netlify-vary-syntax-invalid-query=ab|a-unknown-directive": [
-    "Assertion",
-    "Response 2 comes from cache"
-  ],
-  "netlify-vary-syntax-invalid-query=ab|a-unknown-directive-lines": [
-    "Assertion",
-    "Response 2 comes from cache"
-  ],
+  "netlify-vary-syntax-invalid-query=ab|a-unknown-directive": true,
+  "netlify-vary-syntax-invalid-query=ab|a-unknown-directive-lines": true,
   "netlify-vary-syntax-invalid-query=|": [
     "Assertion",
     "Response 2 comes from cache"
@@ -1596,66 +1548,21 @@
     "Assertion",
     "Response 2 comes from cache"
   ],
-  "netlify-vary-syntax-invalid-unknown-directive": [
-    "Assertion",
-    "Response 2 comes from cache"
-  ],
-  "netlify-vary-syntax-invalid-unknown-directive-cookie=a|b": [
-    "Assertion",
-    "Response 2 comes from cache"
-  ],
-  "netlify-vary-syntax-invalid-unknown-directive-cookie=a|b-lines": [
-    "Assertion",
-    "Response 2 comes from cache"
-  ],
-  "netlify-vary-syntax-invalid-unknown-directive-country=en+es|ab": [
-    "Assertion",
-    "Response 2 comes from cache"
-  ],
-  "netlify-vary-syntax-invalid-unknown-directive-country=en+es|ab-lines": [
-    "Assertion",
-    "Response 2 comes from cache"
-  ],
-  "netlify-vary-syntax-invalid-unknown-directive-empty": [
-    "Assertion",
-    "Response 2 comes from cache"
-  ],
-  "netlify-vary-syntax-invalid-unknown-directive-empty-lines": [
-    "Assertion",
-    "Response 2 comes from cache"
-  ],
-  "netlify-vary-syntax-invalid-unknown-directive-header=a|b": [
-    "Assertion",
-    "Response 2 comes from cache"
-  ],
-  "netlify-vary-syntax-invalid-unknown-directive-header=a|b-lines": [
-    "Assertion",
-    "Response 2 comes from cache"
-  ],
-  "netlify-vary-syntax-invalid-unknown-directive-language=en+es|ab": [
-    "Assertion",
-    "Response 2 comes from cache"
-  ],
-  "netlify-vary-syntax-invalid-unknown-directive-language=en+es|ab-lines": [
-    "Assertion",
-    "Response 2 comes from cache"
-  ],
-  "netlify-vary-syntax-invalid-unknown-directive-query": [
-    "Assertion",
-    "Response 2 comes from cache"
-  ],
-  "netlify-vary-syntax-invalid-unknown-directive-query-lines": [
-    "Assertion",
-    "Response 2 comes from cache"
-  ],
-  "netlify-vary-syntax-invalid-unknown-directive-query=ab|a": [
-    "Assertion",
-    "Response 2 comes from cache"
-  ],
-  "netlify-vary-syntax-invalid-unknown-directive-query=ab|a-lines": [
-    "Assertion",
-    "Response 2 comes from cache"
-  ],
+  "netlify-vary-syntax-invalid-unknown-directive": true,
+  "netlify-vary-syntax-invalid-unknown-directive-cookie=a|b": true,
+  "netlify-vary-syntax-invalid-unknown-directive-cookie=a|b-lines": true,
+  "netlify-vary-syntax-invalid-unknown-directive-country=en+es|ab": true,
+  "netlify-vary-syntax-invalid-unknown-directive-country=en+es|ab-lines": true,
+  "netlify-vary-syntax-invalid-unknown-directive-empty": true,
+  "netlify-vary-syntax-invalid-unknown-directive-empty-lines": true,
+  "netlify-vary-syntax-invalid-unknown-directive-header=a|b": true,
+  "netlify-vary-syntax-invalid-unknown-directive-header=a|b-lines": true,
+  "netlify-vary-syntax-invalid-unknown-directive-language=en+es|ab": true,
+  "netlify-vary-syntax-invalid-unknown-directive-language=en+es|ab-lines": true,
+  "netlify-vary-syntax-invalid-unknown-directive-query": true,
+  "netlify-vary-syntax-invalid-unknown-directive-query-lines": true,
+  "netlify-vary-syntax-invalid-unknown-directive-query=ab|a": true,
+  "netlify-vary-syntax-invalid-unknown-directive-query=ab|a-lines": true,
   "other-age-delay": true,
   "other-age-gen": true,
   "other-age-update-expires": true,
@@ -1667,11 +1574,11 @@
   "other-cookie": true,
   "other-date-update": [
     "Assertion",
-    "Response 2 header Date is \"Mon, 14 Apr 2025 14:28:33 GMT\", not \"Mon, 14 Apr 2025 14:28:30 GMT\""
+    "Response 2 does not come from cache"
   ],
   "other-date-update-expires": [
     "Assertion",
-    "Response 2 header Date is \"Mon, 14 Apr 2025 14:28:33 GMT\", not \"Mon, 14 Apr 2025 14:28:30 GMT\""
+    "Response 2 header Date is \"Tue, 15 Apr 2025 13:41:57 GMT\", not \"Tue, 15 Apr 2025 13:41:54 GMT\""
   ],
   "other-date-update-expires-update": true,
   "other-fresh-content-disposition-attachment": true,
